@@ -15,8 +15,11 @@ function SiteNav2() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">Link</Nav.Link>
+            <Nav.Link href="/hardware">Hardware</Nav.Link>
+            <Nav.Link href="/software">Software</Nav.Link>
+            <Nav.Link href="/integration">System Integration</Nav.Link>
+            <Nav.Link href="/tradeoffs">Design Trade-offs</Nav.Link>
+            <Nav.Link href="/Strategy">Competition Strategy</Nav.Link>
             <NavDropdown title="Link" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
@@ -27,9 +30,6 @@ function SiteNav2() {
                 Something else here
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#" disabled>
-              Link
-            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
