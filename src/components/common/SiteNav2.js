@@ -15,21 +15,21 @@ function SiteNav2() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="/hardware">Hardware</Nav.Link>
+            <NavDropdown title="Hardware" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="/hardware">All</NavDropdown.Item>
+              <NavDropdown.Item href="/hardware/wheels">Wheels</NavDropdown.Item>
+              <NavDropdown.Item href="/hardware/motors">Motors</NavDropdown.Item>
+              <NavDropdown.Item href="/hardware/gears">Gears, Chains & Belts</NavDropdown.Item>
+              <NavDropdown.Item href="/hardware/pulleys">Pulleys</NavDropdown.Item>
+              <NavDropdown.Item href="/hardware/transmissions">Transmissions</NavDropdown.Item>
+              <NavDropdown.Item href="/hardware/frames">Structure & Frame</NavDropdown.Item>
+              <NavDropdown.Item href="/hardware/sensors">Sensors</NavDropdown.Item>
+              <NavDropdown.Item href="/hardware/bearings">Bearings, Shafts & Fasteners</NavDropdown.Item>
+            </NavDropdown>
             <Nav.Link href="/software">Software</Nav.Link>
             <Nav.Link href="/integration">System Integration</Nav.Link>
             <Nav.Link href="/tradeoffs">Design Trade-offs</Nav.Link>
-            <Nav.Link href="/Strategy">Competition Strategy</Nav.Link>
-            <NavDropdown title="Link" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
-                Something else here
-              </NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link href="/strategy">Competition Strategy</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
