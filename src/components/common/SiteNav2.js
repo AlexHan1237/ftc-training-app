@@ -26,10 +26,38 @@ function SiteNav2() {
               <NavDropdown.Item href="/hardware/sensors">Sensors</NavDropdown.Item>
               <NavDropdown.Item href="/hardware/bearings">Bearings, Shafts & Fasteners</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="/software">Software</Nav.Link>
+            <NavDropdown title="Software" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="/software">All</NavDropdown.Item>
+              <NavDropdown.Item href="/software/github">Github</NavDropdown.Item>
+              <NavDropdown.Item href="/software/Java">Java</NavDropdown.Item>
+              <NavDropdown.Item href="/software/android_studio">Android Studio</NavDropdown.Item>
+              <NavDropdown.Item href="/software/sdk">FTC SDK</NavDropdown.Item>
+              <NavDropdown.Item href="/software/cad">CAD System</NavDropdown.Item>
+            </NavDropdown>
             <Nav.Link href="/integration">System Integration</Nav.Link>
-            <Nav.Link href="/tradeoffs">Design Trade-offs</Nav.Link>
+            <NavDropdown title="System Integration" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="/integration">All</NavDropdown.Item>
+              <NavDropdown.Item href="/integration/chassis">Robot Chassis</NavDropdown.Item>
+              <NavDropdown.Item href="/integration/controlhub">ControlHub Setup</NavDropdown.Item>
+              <NavDropdown.Item href="/integration/teleop">Teleop Implementation</NavDropdown.Item>
+              <NavDropdown.Item href="/integration/drivehub">DriveHub Setup</NavDropdown.Item>
+              <NavDropdown.Item href="/integration/debug">Testing & Debugging</NavDropdown.Item>
+            </NavDropdown>
+            <NavDropdown title="Design Trade-offs" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="/tradeoffs">All</NavDropdown.Item>
+              <NavDropdown.Item href="/tradeoffs/chassis">Chassis Design</NavDropdown.Item>
+              <NavDropdown.Item href="/tradeoffs/intake">In-take System</NavDropdown.Item>
+              <NavDropdown.Item href="/tradeoffs/placement">Pixel Placement System</NavDropdown.Item>
+              <NavDropdown.Item href="/tradeoffs/kinematics">Kinematics & Dynamics</NavDropdown.Item>
+              <NavDropdown.Item href="/tradeoffs/hanger">Hanger System</NavDropdown.Item>
+              <NavDropdown.Item href="/tradeoffs/launcher">Paper Plane Lanuncher</NavDropdown.Item>
+            </NavDropdown>
             <Nav.Link href="/strategy">Competition Strategy</Nav.Link>
+            <NavDropdown title="Design Trade-offs" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="/strategy">All</NavDropdown.Item>
+              <NavDropdown.Item href="/strategy/automonous">Automonous Mode</NavDropdown.Item>
+              <NavDropdown.Item href="/strategy/interactive">Interactive Mode</NavDropdown.Item>
+            </NavDropdown>
           </Nav>
         </Navbar.Collapse>
       </Container>
