@@ -40,7 +40,7 @@ function SiteNav2() {
               <NavDropdown.Item href="/integration/chassis">Robot Chassis</NavDropdown.Item>
               <NavDropdown.Item href="/integration/controlhub">ControlHub Setup</NavDropdown.Item>
               <NavDropdown.Item href="/integration/teleop">Teleop Implementation</NavDropdown.Item>
-              <NavDropdown.Item href="/integration/drivehub">DriveHub Setup</NavDropdown.Item>
+              <NavDropdown.Item href="/integration/driverhub">DriverHub Setup</NavDropdown.Item>
               <NavDropdown.Item href="/integration/debug">Testing & Debugging</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Design Trade-offs" id="navbarScrollingDropdown">
