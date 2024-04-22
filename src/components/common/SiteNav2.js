@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-function SiteNav2() {
+function SiteNav2({sitemapData}) {
   return (
     <Navbar bg="dark" expand="lg" variant="dark" >
       <Container>

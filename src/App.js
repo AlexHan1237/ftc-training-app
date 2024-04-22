@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="my-div">
       <SiteNav />
-      <SiteNav2 />
+      <SiteNav2 sitemapData = {SiteMap}/>
       <Routes>
         <Route path='*' element={<Homepage />} />
         <Route paht='/' element={<Homepage />} />
