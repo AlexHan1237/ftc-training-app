@@ -1,0 +1,34 @@
+{
+    "chapters": [
+        {
+            "Hardware Primier": [
+                {
+                    "Section Title" : "Gears", "Link" : "/hardware/gears"
+                },
+                {
+                    "Section Title" : "Gears", "Link" : "/hardware/gears"
+                }
+            ]
+        },
+        {
+            "Software Primier": [
+                {
+                    "Section Title" : "Gears", "Link" : "/hardware/gears"
+                },
+                {
+                    "Section Title" : "Gears", "Link" : "/hardware/gears"
+                }
+            ]
+        },        
+        {
+            "Hands-on Excise": [
+                {
+                    "Section Title" : "Gears", "Link" : "/hardware/gears"
+                },
+                {
+                    "Section Title" : "Gears", "Link" : "/hardware/gears"
+                }
+            ]
+        },
+    ]
+}

@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom';
 
 import './App.css';
@@ -11,7 +12,17 @@ import Homepage from './components/home/HomePage';
 import LoginPage from './components/auth/LoginPage';
 import RegisterPage from './components/auth/RegisterPage';
 
+
 function App() {
+  const [SiteMap, setSiteMap] = useState(null);
+  
+  useEffect(() => {
+    fetch('/sitemap/SiteMap.json')
+      .then(response => response.json())
+      .then(data => setSiteMap(data));
+  }, []);
+
+
   return (
     <div className="my-div">
       <SiteNav />
