@@ -11,7 +11,7 @@ import SiteFooter from './components/common/SiteFooter';
 import Homepage from './components/home/HomePage';
 import LoginPage from './components/auth/LoginPage';
 import RegisterPage from './components/auth/RegisterPage';
-
+import SiteMapContext from './SiteMapContext.js';
 
 function App() {
   const [SiteMap, setSiteMap] = useState(null);
@@ -23,10 +23,13 @@ function App() {
   }, []);
 
 
+
+
   return (
     <div className="my-div">
+    <SiteMapContext.Provider value={SiteMap}>
       <SiteNav />
-      <SiteNav2 sitemapData = {SiteMap}/>
+      <SiteNav2/>
       <Routes>
         <Route path='*' element={<Homepage />} />
         <Route paht='/' element={<Homepage />} />
@@ -34,6 +37,7 @@ function App() {
         <Route path='/register' element={<RegisterPage />} />
       </Routes>
       <SiteFooter />
+    </SiteMapContext.Provider>
     </div>
   );
 }

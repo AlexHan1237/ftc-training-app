@@ -53,7 +53,7 @@ class SiteNav extends React.Component {
                                 <Nav.Link href="/login">Login</Nav.Link>
                                 <Nav.Link href="/register">Register</Nav.Link>
                             </Nav>
-                            <Form inline className="d-flex" onSubmit={this.handleFormSubmit}>
+                            <Form className="d-flex" onSubmit={this.handleFormSubmit}>
                                 <Form.Control
                                     onChange={this.handleSearchInput}
                                     value={this.state.searchText}
@@ -64,7 +64,7 @@ class SiteNav extends React.Component {
                                     aria-label="Search"
                                 />
                                 <Button onClick={this.handleSearchSubmit} variant="outline-primary">
-                                    <i class="bi bi-search"></i>
+                                    <i className="bi bi-search"></i>
                                 </Button>
                             </Form>
 

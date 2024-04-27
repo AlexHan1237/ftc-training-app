@@ -1,0 +1,154 @@
+{
+    "chapters": [
+        {
+            "chapterTitle": "Hardware Primier",
+            "sections": [
+                {
+                    "SectionTitle" : "Overview", 
+                    "Link" : "/hardware/overview"
+                },
+                {
+                    "SectionTitle" : "Wheels", 
+                    "Link" : "/hardware/wheels"
+                },
+                {
+                    "SectionTitle" : "Motors", 
+                    "Link" : "/hardware/motors"
+                },
+                {
+                    "SectionTitle" : "Gears, Chains & Belts", 
+                    "Link" : "/hardware/gears"
+                },
+                {
+                    "SectionTitle" : "Pulleys", 
+                    "Link" : "/hardware/pulleys"
+                },
+                {
+                    "SectionTitle" : "Transmissions", 
+                    "Link" : "/hardware/transmissions"
+                },
+                {
+                    "SectionTitle" : "Structure & Frame", 
+                    "Link" : "/hardware/frames"
+                },
+                {
+                    "SectionTitle" : "Sensors", 
+                    "Link" : "/hardware/sensors"
+                },
+                {
+                    "SectionTitle" : "Bearings, Shafts & Fasteners", 
+                    "Link" : "/hardware/bearings"
+                }
+            ]
+        },
+        {
+            "chapterTitle": "Software Primier",
+            "sections": [
+                {
+                    "SectionTitle" : "Overview", 
+                    "Link" : "/software/overview"
+                },
+                {
+                    "SectionTitle" : "Github", 
+                    "Link" : "/software/github"
+                },
+                {
+                    "SectionTitle" : "Java", 
+                    "Link" : "/software/Java"
+                },
+                {
+                    "SectionTitle" : "Android Studio", 
+                    "Link" : "/software/android_studio"
+                },
+                {
+                    "SectionTitle" : "FTC SDK", 
+                    "Link" : "/software/sdk"
+                },
+                {
+                    "SectionTitle" : "CAD System", 
+                    "Link" : "/software/cad"
+                }
+            ]
+        },        
+        {
+            "chapterTitle": "Hands-on Excise",
+            "sections": [
+                {
+                    "SectionTitle" : "Overview", 
+                    "Link" : "/integration/overview"
+                },
+                {
+                    "SectionTitle" : "Robot Chassis", 
+                    "Link" : "/integration/chassis"
+                },
+                {
+                    "SectionTitle" : "ControlHub Setup", 
+                    "Link" : "/integration/controlhub"
+                },
+                {
+                    "SectionTitle" : "Teleop Implementation", 
+                    "Link" : "/integration/teleop"
+                },
+                {
+                    "SectionTitle" : "DriverHub Setup", 
+                    "Link" : "/integration/driverhub"
+                },
+                {
+                    "SectionTitle" : "Testing, Adjusting & Debugging", 
+                    "Link" : "/integration/debug"
+                }
+            ]
+        },        
+        {
+            "chapterTitle": "Design Trade-offs",
+            "sections": [
+                {
+                    "SectionTitle" : "Overview", 
+                    "Link" : "/tradeoffs/overview"
+                },
+                {
+                    "SectionTitle" : "Chassis Design", 
+                    "Link" : "/tradeoffs/chassis"
+                },
+                {
+                    "SectionTitle" : "In-take System", 
+                    "Link" : "/tradeoffs/intake"
+                },
+                {
+                    "SectionTitle" : "Pixel Placement System", 
+                    "Link" : "/tradeoffs/placement"
+                },
+                {
+                    "SectionTitle" : "Kinematics & Dynamics", 
+                    "Link" : "/tradeoffs/kinematics"
+                },
+                {
+                    "SectionTitle" : "Hanger System", 
+                    "Link" : "/tradeoffs/hanger"
+                },
+                {
+                    "SectionTitle" : "Paper Plane Lanuncher", 
+                    "Link" : "/tradeoffs/launcher"
+                }
+            ]
+        },        
+        {
+            "chapterTitle": "Competition Strategy",
+            "sections": [
+                {
+                    "SectionTitle" : "Overview", 
+                    "Link" : "/strategy/overview"
+                },
+                {
+                    "SectionTitle" : "Automonous Mode", 
+                    "Link" : "/strategy/automonous"
+                },
+                {
+                    "SectionTitle" : "Interactive Mode", 
+                    "Link" : "/strategy/interactive"
+                }
+            ]
+        }
+    ]
+}
+
