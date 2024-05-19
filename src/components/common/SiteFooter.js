@@ -1,12 +1,20 @@
-import { Container } from "react-bootstrap";
+import { FaHeart } from 'react-icons/fa';
 function SiteFooter() {
     return (
-    <footer className="py-5 my-5">
-        <Container className="px-4">
-            <p className="text-end">&copy; 2022</p>
-        </Container>
-    </footer>
-    )
+        <footer>
+          <small>
+            &copy; {new Date().getFullYear()} made with{' '}
+            <FaHeart style={{ color: 'red' }} /> by -{' '}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://alexhan1237.github.io/"
+            >
+              Alexander Han
+            </a>
+          </small>
+        </footer>
+      );
 }
 
 export default SiteFooter;

@@ -2,150 +2,214 @@
     "chapters": [
         {
             "chapterTitle": "Hardware Primier",
+            "icon": "ConstructionRounded",
             "sections": [
                 {
                     "SectionTitle" : "Overview", 
-                    "Link" : "/hardware/overview"
+                    "Link" : "/hardware", 
+                    "Page" : "HardwareOverviewPage"
                 },
                 {
                     "SectionTitle" : "Wheels", 
-                    "Link" : "/hardware/wheels"
+                    "Link" : "/hardware/wheels", 
+                    "Page" : "HardwareWheelsPage"
                 },
                 {
                     "SectionTitle" : "Motors", 
-                    "Link" : "/hardware/motors"
+                    "Link" : "/hardware/motors", 
+                    "Page" : "HardwareMotorsPage"
                 },
                 {
                     "SectionTitle" : "Gears, Chains & Belts", 
-                    "Link" : "/hardware/gears"
+                    "Link" : "/hardware/gears", 
+                    "Page" : "HardwareGearsPage"
                 },
                 {
                     "SectionTitle" : "Pulleys", 
-                    "Link" : "/hardware/pulleys"
+                    "Link" : "/hardware/pulleys", 
+                    "Page" : "HardwarePulleysPage"
                 },
                 {
                     "SectionTitle" : "Transmissions", 
-                    "Link" : "/hardware/transmissions"
+                    "Link" : "/hardware/transmissions", 
+                    "Page" : "HardwareTransmissionsPage"
                 },
                 {
                     "SectionTitle" : "Structure & Frame", 
-                    "Link" : "/hardware/frames"
+                    "Link" : "/hardware/frames", 
+                    "Page" : "HardwareFramesPage"
                 },
                 {
                     "SectionTitle" : "Sensors", 
-                    "Link" : "/hardware/sensors"
+                    "Link" : "/hardware/sensors", 
+                    "Page" : "HardwareSensorsPage"
                 },
                 {
                     "SectionTitle" : "Bearings, Shafts & Fasteners", 
-                    "Link" : "/hardware/bearings"
+                    "Link" : "/hardware/bearings", 
+                    "Page" : "HardwareBearingsPage"
                 }
             ]
         },
         {
             "chapterTitle": "Software Primier",
+            "icon": "ComputerRounded",
             "sections": [
                 {
                     "SectionTitle" : "Overview", 
-                    "Link" : "/software/overview"
+                    "Link" : "/software", 
+                    "Page" : "SoftwareOverviewPage",
+                    "crumb" : "Software Primier"
                 },
                 {
                     "SectionTitle" : "Github", 
-                    "Link" : "/software/github"
+                    "Link" : "/software/github", 
+                    "Page" : "SoftwareGithubPage",
+                    "crumb" : "Github"
                 },
                 {
                     "SectionTitle" : "Java", 
-                    "Link" : "/software/Java"
+                    "Link" : "/software/java", 
+                    "Page" : "SoftwareJavaPage",
+                    "crumb" : "Java"
                 },
                 {
                     "SectionTitle" : "Android Studio", 
-                    "Link" : "/software/android_studio"
+                    "Link" : "/software/android", 
+                    "Page" : "SoftwareAndroidPage",
+                    "crumb" : "Android Studio"
                 },
                 {
                     "SectionTitle" : "FTC SDK", 
-                    "Link" : "/software/sdk"
+                    "Link" : "/software/sdk", 
+                    "Page" : "SoftwareSDKPage",
+                    "crumb" : "FTC SDK"
                 },
                 {
                     "SectionTitle" : "CAD System", 
-                    "Link" : "/software/cad"
+                    "Link" : "/software/cad", 
+                    "Page" : "SoftwareCADPage",
+                    "crumb" : "CAD System"
                 }
             ]
         },        
         {
             "chapterTitle": "Hands-on Excise",
+            "icon": "AssistWalkerRounded",
             "sections": [
                 {
                     "SectionTitle" : "Overview", 
-                    "Link" : "/integration/overview"
+                    "Link" : "/integration", 
+                    "Page" : "IntegrationOverviewPage",
+                    "crumb" : "Hands-on Excise"
                 },
                 {
                     "SectionTitle" : "Robot Chassis", 
-                    "Link" : "/integration/chassis"
+                    "Link" : "/integration/chassis", 
+                    "Page" : "IntegrationChassisPage",
+                    "crumb" : "Robot Chassis"
                 },
                 {
                     "SectionTitle" : "ControlHub Setup", 
-                    "Link" : "/integration/controlhub"
+                    "Link" : "/integration/controlhub", 
+                    "Page" : "IntegrationControlhubPage",
+                    "crumb" : "ControlHub Setup"
                 },
                 {
-                    "SectionTitle" : "Teleop Implementation", 
-                    "Link" : "/integration/teleop"
+                    "SectionTitle" : "Teleop Programming", 
+                    "Link" : "/integration/teleop", 
+                    "Page" : "IntegrationTeleopPage",
+                    "crumb" : "Teleop Programming"
                 },
                 {
                     "SectionTitle" : "DriverHub Setup", 
-                    "Link" : "/integration/driverhub"
+                    "Link" : "/integration/driverhub", 
+                    "Page" : "IntegrationDriverhubPage",
+                    "crumb" : "DriverHub Setup"
                 },
                 {
                     "SectionTitle" : "Testing, Adjusting & Debugging", 
-                    "Link" : "/integration/debug"
+                    "Link" : "/integration/debug", 
+                    "Page" : "IntegrationDebugPage",
+                    "crumb" : "Testing, Adjusting & Debugging"
                 }
             ]
         },        
         {
             "chapterTitle": "Design Trade-offs",
+            "icon": "BalanceRounded",
             "sections": [
                 {
                     "SectionTitle" : "Overview", 
-                    "Link" : "/tradeoffs/overview"
+                    "Link" : "/tradeoffs",
+                    "Page" : "TradeoffsOverviewPage",
+                    "crumb" : "Design Trade-offs"
                 },
                 {
                     "SectionTitle" : "Chassis Design", 
-                    "Link" : "/tradeoffs/chassis"
+                    "Link" : "/tradeoffs/chassis", 
+                    "Page" : "TradeoffsChassisPage",
+                    "crumb" : "Chassis Design"
                 },
                 {
-                    "SectionTitle" : "In-take System", 
-                    "Link" : "/tradeoffs/intake"
+                    "SectionTitle" : "Pixel In-take System", 
+                    "Link" : "/tradeoffs/intake", 
+                    "Page" : "TradeoffsIntakePage",
+                    "crumb" : "In-take System"
                 },
                 {
                     "SectionTitle" : "Pixel Placement System", 
-                    "Link" : "/tradeoffs/placement"
+                    "Link" : "/tradeoffs/placement", 
+                    "Page" : "TradeoffsPlacementPage",
+                    "crumb" : "Pixel Placement System"
                 },
                 {
                     "SectionTitle" : "Kinematics & Dynamics", 
-                    "Link" : "/tradeoffs/kinematics"
+                    "Link" : "/tradeoffs/kinematics", 
+                    "Page" : "TradeoffsKinematicsPage",
+                    "crumb" : "Kinematics & Dynamics"
                 },
                 {
                     "SectionTitle" : "Hanger System", 
-                    "Link" : "/tradeoffs/hanger"
+                    "Link" : "/tradeoffs/hanger", 
+                    "Page" : "TradeoffsHangerPage",
+                    "crumb" : "Hanger System"
                 },
                 {
                     "SectionTitle" : "Paper Plane Lanuncher", 
-                    "Link" : "/tradeoffs/launcher"
+                    "Link" : "/tradeoffs/launcher", 
+                    "Page" : "TradeoffsLauncherPage",
+                    "crumb" : "Paper Plane Lanuncher"
                 }
             ]
         },        
         {
             "chapterTitle": "Competition Strategy",
+            "icon": "SportsMartialArtsRounded",
             "sections": [
                 {
                     "SectionTitle" : "Overview", 
-                    "Link" : "/strategy/overview"
+                    "Link" : "/strategy", 
+                    "Page" : "StrategyOverviewPage",
+                    "crumb" : "Competition Strategy"
+                },
+                {
+                    "SectionTitle" : "Team Alliance", 
+                    "Link" : "/strategy/alliance", 
+                    "Page" : "StrategyAlliancePage",
+                    "crumb" : "Team Alliance"
                 },
                 {
                     "SectionTitle" : "Automonous Mode", 
-                    "Link" : "/strategy/automonous"
+                    "Link" : "/strategy/automonous", 
+                    "Page" : "StrategyAutomonousPage",
+                    "crumb" : "Automonous Mode"
                 },
                 {
                     "SectionTitle" : "Interactive Mode", 
-                    "Link" : "/strategy/interactive"
+                    "Link" : "/strategy/interactive", 
+                    "Page" : "StrategyInteractivePage",
+                    "crumb" : "Interactive Mode"
                 }
             ]
         }

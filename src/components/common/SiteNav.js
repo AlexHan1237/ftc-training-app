@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Nav, Navbar, Form, Button, Row, Col } from 'react-bootstrap';
+import { Container, Nav, Navbar, Form, Button } from 'react-bootstrap';
 //import { search } from 'bootstrap-icons'
 
 
@@ -36,22 +36,22 @@ class SiteNav extends React.Component {
 
     handleFormSubmit = e => e.preventDefault();
     render() {
+        const { collapsed, handleCollapsedChange } = this.props;
         return (
             <header>
                 <Navbar bg="bg-white" expand="lg" variant="light">
-                    <Container>
+                    <Button onClick={handleCollapsedChange} variant="outline-primary" className="ms-3" >
+                        <i className="bi bi-list"></i>
+                    </Button>
+                    <Container className="ms-3">
                         <Navbar.Brand href="/">
-                            <img
-                                alt=""
-                                src="/img/mechatronics.png"
-                                className="d-inline-block"
-                            />
+                            <img alt="" src="/img/mechatronics.png" className="d-inline-block" />
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
-                            <Nav className="ms-md-auto">
-                                <Nav.Link href="/login">Login</Nav.Link>
-                                <Nav.Link href="/register">Register</Nav.Link>
+                            <Nav className="ms-md-auto link-warning">
+                                <Nav.Link href="/Login">Login</Nav.Link>
+                                <Nav.Link href="/Register">Register</Nav.Link>
                             </Nav>
                             <Form className="d-flex" onSubmit={this.handleFormSubmit}>
                                 <Form.Control

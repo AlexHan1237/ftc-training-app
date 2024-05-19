@@ -10,9 +10,9 @@ function SiteNav2() {
   const sitemap = useContext(SiteMapContext);
   if (!sitemap)
     return;
-  
+
   return (
-    <Navbar style={{backgroundSize: "0", backgroundColor: "#2353b1"}}> 
+    <Navbar style={{ backgroundSize: "0", backgroundColor: "#2353b1" }}>
       <Container>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -21,14 +21,14 @@ function SiteNav2() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-          { sitemap.chapters.map((chapterObj) => {
-            return (
-            <NavDropdown title={chapterObj.chapterTitle} id="navbarScrollingDropdown">
-              { chapterObj.sections.map((sectionObj) => {
-                  return (<NavDropdown.Item href="{sectionObj.Link}">{sectionObj.SectionTitle}</NavDropdown.Item>);
-                })}
+            {sitemap.chapters.map((chapterObj) => {
+              return (
+                <NavDropdown title={chapterObj.chapterTitle} id="navbarScrollingDropdown">
+                  {chapterObj.sections.map((sectionObj) => {
+                    return (<NavDropdown.Item href={sectionObj.Link}>{sectionObj.SectionTitle}</NavDropdown.Item>);
+                  })}
                 </NavDropdown>
-            );
+              );
             })}
           </Nav>
         </Navbar.Collapse>

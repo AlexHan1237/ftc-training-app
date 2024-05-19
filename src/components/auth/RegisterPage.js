@@ -22,11 +22,11 @@ function RegisterPage() {
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="formBasicPassword">
                             <Form.Label>Password</Form.Label>
-                            <Form.Control type="password" minLength="8" placeholder="Enter password"/>
+                            <Form.Control type="password" minLength="8" placeholder="Enter password" />
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="formBasicPassword">
                             <Form.Label>Confirm</Form.Label>
-                            <Form.Control type="password" minLength="8" placeholder="Enter password"/>
+                            <Form.Control type="password" minLength="8" placeholder="Enter password" />
                         </Form.Group>
 
                         <Button variant="primary" type="submit">Register &gt;&gt;</Button>&nbsp;
