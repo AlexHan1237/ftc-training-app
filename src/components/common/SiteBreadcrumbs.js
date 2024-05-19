@@ -11,7 +11,9 @@ const SiteBreadcrumbs = () => {
 
   const matchedRoutes = clean_paths.map((element, index) => {
     current_link += '/' + element;
+    
     let key = element;
+
     let crumb = element.replace(/_/g, ' ');
 
     if (index + 1 === clean_paths.length)
