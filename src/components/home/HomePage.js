@@ -1,7 +1,4 @@
-import { Button, Container } from "react-bootstrap";
-import { Row } from "react-bootstrap";
-import { Col } from "react-bootstrap";
-import { Image } from "react-bootstrap";
+import { Col, Row, Image, Button, Container } from "react-bootstrap";
 
 function HomePage() {
     return (

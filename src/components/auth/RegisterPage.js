@@ -1,8 +1,4 @@
-import { Container } from "react-bootstrap";
-import { Row } from "react-bootstrap";
-import { Col } from "react-bootstrap";
-import { Form } from "react-bootstrap";
-import { Button } from "react-bootstrap";
+import { Form, Col, Row, Button, Container } from "react-bootstrap";
 
 function RegisterPage() {
     return (
