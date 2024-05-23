@@ -1,10 +1,9 @@
-import { FaHeart } from 'react-icons/fa';
 function SiteFooter() {
     return (
         <footer>
           <small>
             &copy; {new Date().getFullYear()} made with{' '}
-            <FaHeart style={{ color: 'red' }} /> by -{' '}
+            <i class="bi bi-heart-fill" style={{ color: 'red' }} /> by -{' '}
             <a
               target="_blank"
               rel="noopener noreferrer"

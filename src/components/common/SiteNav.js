@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Nav, Navbar, Form, Button } from 'react-bootstrap';
-//import { search } from 'bootstrap-icons'
 
 
 class SiteNav extends React.Component {
@@ -32,7 +31,11 @@ class SiteNav extends React.Component {
         if (event.key === 'Enter' && event.keyCode === 13) {
             this.handleSearchSubmit();
         }
-    }
+    };
+
+    handleLogout = () => {
+        this.props.logOut();
+    };
 
     handleFormSubmit = e => e.preventDefault();
     render() {
@@ -50,8 +53,7 @@ class SiteNav extends React.Component {
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="ms-md-auto link-warning">
-                                <Nav.Link href="/Login">Login</Nav.Link>
-                                <Nav.Link href="/Register">Register</Nav.Link>
+                                <Nav.Link onClick={this.handleLogout}>Logout</Nav.Link>
                             </Nav>
                             <Form className="d-flex" onSubmit={this.handleFormSubmit}>
                                 <Form.Control
@@ -62,6 +64,7 @@ class SiteNav extends React.Component {
                                     placeholder="Search"
                                     className="me-2"
                                     aria-label="Search"
+                                    style={{ color: 'red' }}
                                 />
                                 <Button onClick={this.handleSearchSubmit} variant="outline-primary">
                                     <i className="bi bi-search"></i>
