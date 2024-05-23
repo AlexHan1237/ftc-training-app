@@ -1,31 +1,193 @@
-import {
-    Authenticator,
-    Flex,
-    Grid,
-    Image,
-    useTheme,
-    View
-  } from "@aws-amplify/ui-react";
+import { Authenticator, Flex, Grid, Image, useTheme, View, Text, Heading, Button, useAuthenticator } from "@aws-amplify/ui-react";
   
-  import SignInLogo from "./SignInLogo";
-  import SignInCopyright from "./SignInCopyright";
+  import Header from "./SignInLogo";
+  import Footer from "./SignInCopyright";
   import SignInHeader from "./SignInHeader";
   import SignInFooter from "./SignInFooter";
   
   const components = {
-    SignInLogo,
+    Header,
     SignIn: {
       Header: SignInHeader,
       Footer: SignInFooter
     },
-    SignInCopyright
+    Footer
   };
+  
+  // const components = {
+  //   Header() {
+  //     const { tokens } = useTheme();
+  
+  //     return (
+  //       <View textAlign="center" padding={tokens.space.large}>
+  //         <Image
+  //           alt="Amplify logo"
+  //           src="/img/mechatronics1.png"
+  //         />
+  //       </View>
+  //     );
+  //   },
+  
+  //   Footer() {
+  //     const { tokens } = useTheme();
+  
+  //     return (
+  //       <View textAlign="center" padding={tokens.space.large}>
+  //         <Text color={tokens.colors.neutral[80]}>
+  //           &copy; All Rights Reserved
+  //         </Text>
+  //       </View>
+  //     );
+  //   },
+  
+  //   SignIn: {
+  //     Header() {
+  //       const { tokens } = useTheme();
+  
+  //       return (
+  //         <Heading
+  //           padding={`${tokens.space.xl} 0 0 ${tokens.space.xl}`}
+  //           level={3}
+  //         >
+  //           Sign in to your account
+  //         </Heading>
+  //       );
+  //     },
+  //     Footer() {
+  //       const { toForgotPassword } = useAuthenticator();
+  
+  //       return (
+  //         <View textAlign="center">
+  //           <Button
+  //             fontWeight="normal"
+  //             onClick={toForgotPassword}
+  //             size="small"
+  //             variation="link"
+  //           >
+  //             Reset Password
+  //           </Button>
+  //         </View>
+  //       );
+  //     },
+  //   },
+  
+  //   SignUp: {
+  //     Header() {
+  //       const { tokens } = useTheme();
+  
+  //       return (
+  //         <Heading
+  //           padding={`${tokens.space.xl} 0 0 ${tokens.space.xl}`}
+  //           level={3}
+  //         >
+  //           Create a new account
+  //         </Heading>
+  //       );
+  //     },
+  //     Footer() {
+  //       const { toSignIn } = useAuthenticator();
+  
+  //       return (
+  //         <View textAlign="center">
+  //           <Button
+  //             fontWeight="normal"
+  //             onClick={toSignIn}
+  //             size="small"
+  //             variation="link"
+  //           >
+  //             Back to Sign In
+  //           </Button>
+  //         </View>
+  //       );
+  //     },
+  //   },
+  //   ConfirmSignUp: {
+  //     Header() {
+  //       const { tokens } = useTheme();
+  //       return (
+  //         <Heading
+  //           padding={`${tokens.space.xl} 0 0 ${tokens.space.xl}`}
+  //           level={3}
+  //         >
+  //           Enter Information:
+  //         </Heading>
+  //       );
+  //     },
+  //     Footer() {
+  //       return <Text>Footer Information</Text>;
+  //     },
+  //   },
+  //   SetupTotp: {
+  //     Header() {
+  //       const { tokens } = useTheme();
+  //       return (
+  //         <Heading
+  //           padding={`${tokens.space.xl} 0 0 ${tokens.space.xl}`}
+  //           level={3}
+  //         >
+  //           Enter Information:
+  //         </Heading>
+  //       );
+  //     },
+  //     Footer() {
+  //       return <Text>Footer Information</Text>;
+  //     },
+  //   },
+  //   ConfirmSignIn: {
+  //     Header() {
+  //       const { tokens } = useTheme();
+  //       return (
+  //         <Heading
+  //           padding={`${tokens.space.xl} 0 0 ${tokens.space.xl}`}
+  //           level={3}
+  //         >
+  //           Enter Information:
+  //         </Heading>
+  //       );
+  //     },
+  //     Footer() {
+  //       return <Text>Footer Information</Text>;
+  //     },
+  //   },
+  //   ForgotPassword: {
+  //     Header() {
+  //       const { tokens } = useTheme();
+  //       return (
+  //         <Heading
+  //           padding={`${tokens.space.xl} 0 0 ${tokens.space.xl}`}
+  //           level={3}
+  //         >
+  //           Enter Information:
+  //         </Heading>
+  //       );
+  //     },
+  //     Footer() {
+  //       return <Text>Footer Information</Text>;
+  //     },
+  //   },
+  //   ConfirmResetPassword: {
+  //     Header() {
+  //       const { tokens } = useTheme();
+  //       return (
+  //         <Heading
+  //           padding={`${tokens.space.xl} 0 0 ${tokens.space.xl}`}
+  //           level={3}
+  //         >
+  //           Enter Information:
+  //         </Heading>
+  //       );
+  //     },
+  //     Footer() {
+  //       return <Text>Footer Information</Text>;
+  //     },
+  //   },
+  // };
   
   function LandingPage() {
     const { tokens } = useTheme();
   
     return (
-      <Grid templateColumns={{ base: "1fr 0", medium: "1fr 1fr" }}>
+      <Grid templateColumns={{ base: "1fr 0", medium: "1fr 4fr" }}>
         <Flex
           backgroundColor={tokens.colors.background.secondary}
           justifyContent="center"

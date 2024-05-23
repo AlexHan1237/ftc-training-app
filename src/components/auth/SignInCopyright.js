@@ -1,6 +1,6 @@
 import { Flex, Text, useTheme } from "@aws-amplify/ui-react";
 
-function SignInCopyright() {
+function Footer() {
   const { tokens } = useTheme();
 
   return (
@@ -10,4 +10,4 @@ function SignInCopyright() {
   );
 }
 
-export default SignInCopyright;
+export default Footer;

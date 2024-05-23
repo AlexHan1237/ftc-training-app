@@ -48,7 +48,7 @@ class SiteNav extends React.Component {
                     </Button>
                     <Container className="ms-3">
                         <Navbar.Brand href="/">
-                            <img alt="" src="/img/mechatronics.png" className="d-inline-block" />
+                            <img alt="" src="/img/mechatronics1.png" className="d-inline-block" />
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
