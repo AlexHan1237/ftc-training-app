@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "traineeCreditAPI",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authftctraininghubc99dbead",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

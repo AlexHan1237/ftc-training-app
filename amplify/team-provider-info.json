@@ -14,6 +14,9 @@
     "categories": {
       "auth": {
         "ftctraininghubc99dbead": {}
+      },
+      "api": {
+        "traineeCreditAPI": {}
       }
     }
   }
