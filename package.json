@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@aws-amplify/ui-react": "^6.1.12",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "@mui/icons-material": "^5.15.17",
     "@mui/material": "^5.15.17",
+    "aws-amplify": "^6.3.4",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
     "react": "^18.2.0",

@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ftctraininghub-dev-7c61b-authRole",
+      "UnauthRoleArn": "arn:aws:iam::533267341288:role/amplify-ftctraininghub-dev-7c61b-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::533267341288:role/amplify-ftctraininghub-dev-7c61b-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-ftctraininghub-dev-7c61b-deployment",
+      "UnauthRoleName": "amplify-ftctraininghub-dev-7c61b-unauthRole",
+      "StackName": "amplify-ftctraininghub-dev-7c61b",
+      "StackId": "arn:aws:cloudformation:us-east-1:533267341288:stack/amplify-ftctraininghub-dev-7c61b/5520aca0-1e01-11ef-a001-0e2777a8871b",
+      "AmplifyAppId": "d2hv3zdnk0dvf0"
+    },
+    "categories": {
+      "auth": {
+        "ftctraininghub514f5c45": {}
+      }
+    }
+  }
+}
