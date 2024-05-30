@@ -3,11 +3,11 @@ import { Outlet } from 'react-router-dom';
 
 import { Amplify } from 'aws-amplify';
 import { generateClient } from "aws-amplify/api";
-// import { listTraineeCredits } from './graphql/queries';
-// import {
-//   createTraineeCredit,
-//   updateTraineeCredit,
-// } from "./graphql/mutations";
+import { listTraineeCredits } from './graphql/queries';
+import {
+  createTraineeCredit,
+  updateTraineeCredit,
+} from "./graphql/mutations";
 import { useAuthenticator } from '@aws-amplify/ui-react';
 import awsExports from './aws-exports';
 
@@ -41,10 +41,10 @@ function App() {
 
   async function fetchTraineeCredits() {
     try {
-      // const apiData = await client.graphql({ query: listTraineeCredits });
-      // const creditsFromAPI = apiData.data.listNotes.items;
-      // console.log('User credit list', creditsFromAPI);
-      // setCredits(creditsFromAPI);
+      const apiData = await client.graphql({ query: listTraineeCredits });
+      const creditsFromAPI = apiData.data.listNotes.items;
+      console.log('User credit list', creditsFromAPI);
+      setCredits(creditsFromAPI);
     } catch (error) {
       console.log('error in fetching credits', error);
     }
@@ -52,17 +52,17 @@ function App() {
 
   async function awardCredit(event) {
     event.preventDefault();
-    // const form = new FormData(event.target);
-    // const data = {
-    //   name: form.get("name"),
-    //   description: form.get("description"),
-    // };
-    // await client.graphql({
-    //   query: createTraineeCredit,
-    //   variables: { input: data },
-    // });
-    // fetchTraineeCredits();
-    // event.target.reset();
+    const form = new FormData(event.target);
+    const data = {
+      name: form.get("name"),
+      description: form.get("description"),
+    };
+    await client.graphql({
+      query: createTraineeCredit,
+      variables: { input: data },
+    });
+    fetchTraineeCredits();
+    event.target.reset();
   };
 
   const { user, signOut } = useAuthenticator((context) => [context.user]);
