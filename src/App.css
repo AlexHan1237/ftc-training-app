@@ -1,3 +1,11 @@
 my-div {
   background-color: transparent;
 }
+
+.inset-image {
+  border: 0.5px solid #2C2622;
+  float: left;
+  margin: 0 40px 24px 0;
+  padding: 16px;
+  width: 25%;
+}
