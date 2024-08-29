@@ -60,32 +60,35 @@ function HardwareMotorsPage() {
 
             <Row className="px-4 my-5">
                 <Col xs={2} sm={2}>
+                    <Image src={require("./img/torquenado_dc_motor-ortho.jpg")} fluid />
+                    <Image src={require("./img/am-SkitterGearMotors.jpg")} fluid />
+                    <Image src={require("./img/yellow_jacket.jpg")} fluid />
                 </Col>
                 <Col sm={8}>
                     <h2> FTC Eligible Motors </h2>
-                    The only FTC legal motors are the following ones:<p/>
-                <ul class="simple">
-                    <li><p>TETRIX 12V DC Motor (<a class="reference external" href="https://www.pitsco.com/TETRIX-DC-Gear-Motor">regular</a>, <a class="reference external" href="https://www.pitsco.com/TETRIX-MAX-TorqueNADO-Motor-with-Encoder/">Torquenado</a>)</p></li>
-                    <li><p><a class="reference external" href="https://www.andymark.com/categories/mechanical-gearboxes-gearmotors">AndyMark NeveRest series 12V DC Motors</a></p></li>
-                    <li><p>Modern Robotics/MATRIX 12V DC Motors (this also includes <a class="reference external" href="https://www.gobilda.com/motors/">goBILDA motors</a>, which are MATRIX motors with a different gearbox)</p></li>
-                    <li><p><a class="reference external" href="https://www.revrobotics.com/rev-41-1301/">REV Robotics HD Hex 12V DC Motor</a></p></li>
-                    <li><p><a class="reference external" href="https://www.revrobotics.com/rev-41-1300/">REV Robotics Core Hex 12V DC Motor</a></p></li>
-                </ul>
-                <p>Most motors above have very similar structures. They consist of the following components.</p>
-                <ul class="simple">
-                    <li><p><strong>Bare motor</strong>. In all cases above, this is a 12V motor of RS-555 type, with free speed 
-                    around 6,000 RPM and stall current around 10A. The motor specs posted by different vendors might be slightly 
-                    different, but the difference is mainly due to different testing methods. </p></li>
-                    <li><p><strong>Gearbox</strong>. The gearbox is attached to the front of the motor and reduces the speed 
-                    while increasing the torque. For example, a 20:1 gearbox reduces the speed by a factor of 20, resulting in 
-                    a no-load speed of around 300RPM. The gearbox can also be replaced; this is FTC legal but requires some skill.</p></li>
-                    <li><p><strong>Encoder</strong>. Attached to the back of the motor and protected by a plastic cap, 
-                    the encoder contains a sensor registering motor shaft rotation. It can be connected to REV hubs and used for 
-                    precise control of motor speed or rotating to a specific position.</p></li>
-                </ul>
-            </Col>
-        </Row >
- 
+                    The only FTC legal motors are the following ones:<p />
+                    <ul class="simple">
+                        <li><p>TETRIX 12V DC Motor (<a class="reference external" href="https://www.pitsco.com/TETRIX-DC-Gear-Motor">regular</a>, <a class="reference external" href="https://www.pitsco.com/TETRIX-MAX-TorqueNADO-Motor-with-Encoder/">Torquenado</a>)</p></li>
+                        <li><p><a class="reference external" href="https://www.andymark.com/categories/mechanical-gearboxes-gearmotors">AndyMark NeveRest series 12V DC Motors</a></p></li>
+                        <li><p>Modern Robotics/MATRIX 12V DC Motors (this also includes <a class="reference external" href="https://www.gobilda.com/motors/">goBILDA motors</a>, which are MATRIX motors with a different gearbox)</p></li>
+                        <li><p><a class="reference external" href="https://www.revrobotics.com/rev-41-1301/">REV Robotics HD Hex 12V DC Motor</a></p></li>
+                        <li><p><a class="reference external" href="https://www.revrobotics.com/rev-41-1300/">REV Robotics Core Hex 12V DC Motor</a></p></li>
+                    </ul>
+                    <p>Most motors above have very similar structures. They consist of the following components.</p>
+                    <ul class="simple">
+                        <li><p><strong>Bare motor</strong>. In all cases above, this is a 12V motor of RS-555 type, with free speed
+                            around 6,000 RPM and stall current around 10A. The motor specs posted by different vendors might be slightly
+                            different, but the difference is mainly due to different testing methods. </p></li>
+                        <li><p><strong>Gearbox</strong>. The gearbox is attached to the front of the motor and reduces the speed
+                            while increasing the torque. For example, a 20:1 gearbox reduces the speed by a factor of 20, resulting in
+                            a no-load speed of around 300RPM. The gearbox can also be replaced; this is FTC legal but requires some skill.</p></li>
+                        <li><p><strong>Encoder</strong>. Attached to the back of the motor and protected by a plastic cap,
+                            the encoder contains a sensor registering motor shaft rotation. It can be connected to REV hubs and used for
+                            precise control of motor speed or rotating to a specific position.</p></li>
+                    </ul>
+                </Col>
+            </Row >
+
 
         </Container >)
 }
