@@ -31,7 +31,7 @@ export const SiteMap = {
                     "Page" : "HardwareShaftsFastenersPage"
                 },
                 {
-                    "SectionTitle" : "Pulleys", 
+                    "SectionTitle" : "Cable and Pulley Systems", 
                     "Link" : "Hardware_Primier/pulleys", 
                     "Page" : "HardwarePulleysPage"
                 },
@@ -44,11 +44,6 @@ export const SiteMap = {
                     "SectionTitle" : "Wheels", 
                     "Link" : "Hardware_Primier/Wheels", 
                     "Page" : "HardwareWheelsPage"
-                },
-                {
-                    "SectionTitle" : "Transmissions", 
-                    "Link" : "Hardware_Primier/Transmissions", 
-                    "Page" : "HardwareTransmissionsPage"
                 },
                 {
                     "SectionTitle" : "Structure and Frame", 
