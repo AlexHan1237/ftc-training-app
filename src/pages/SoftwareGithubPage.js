@@ -1,6 +1,6 @@
-import { Col, Row, Image, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
-import ReactPlayer from 'react-player';
+
 
 function SoftwareGithubPage() {
     return (
@@ -43,7 +43,7 @@ function SoftwareGithubPage() {
             <h2> Online Turorial </h2>
             <iframe width="853" height="480" src="https://www.youtube.com/embed/tRZGeaHPoaw" title="Git and GitHub Tutorial for Beginners" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
+            <p />
         </Container >)
 }
 
