@@ -67,7 +67,7 @@ export const SiteMap = {
                     "Page" : "SoftwareOverviewPage"
                 },
                 {
-                    "SectionTitle" : "Github", 
+                    "SectionTitle" : "Git and Github", 
                     "Link" : "Software_Primier/Github", 
                     "Page" : "SoftwareGithubPage"
                 },
