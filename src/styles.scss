@@ -167,3 +167,17 @@ input::placeholder {
   color: rgb(80, 120, 220) !important;
 }
 
+code {
+  background-color: #f4f4f4;
+  border-radius: 4px;
+  padding: 0.2em 0.4em;
+  font-family: monospace;
+  color: #333;
+}
+pre {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1em;
+  overflow-x: auto;
+}
