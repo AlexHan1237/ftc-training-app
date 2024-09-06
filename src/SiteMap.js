@@ -78,14 +78,9 @@ export const SiteMap = {
                     "Crumb" : "Java"
                 },
                 {
-                    "SectionTitle" : "Android Studio", 
+                    "SectionTitle" : "Android Studio with FTC SDK", 
                     "Link" : "Software_Primier/Android_Studio", 
                     "Page" : "SoftwareAndroidPage"
-                },
-                {
-                    "SectionTitle" : "FTC SDK", 
-                    "Link" : "Software_Primier/FTC_SDK", 
-                    "Page" : "SoftwareSDKPage"
                 },
                 {
                     "SectionTitle" : "CAD System", 
