@@ -86,7 +86,7 @@ function SoftwareAndroidPage() {
 
             <h2>5. Online Tutorial</h2>
             <iframe width="853" height="480" src="https://www.youtube.com/embed/tqHGIsvgJ78" title="Android Studios Installation and Setup for FTC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+            <p />
         </Container >)
 }
 
