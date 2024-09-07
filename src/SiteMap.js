@@ -31,7 +31,7 @@ export const SiteMap = {
                     "Page" : "HardwareShaftsFastenersPage"
                 },
                 {
-                    "SectionTitle" : "Pulleys", 
+                    "SectionTitle" : "Cable and Pulley Systems", 
                     "Link" : "Hardware_Primier/pulleys", 
                     "Page" : "HardwarePulleysPage"
                 },
@@ -44,11 +44,6 @@ export const SiteMap = {
                     "SectionTitle" : "Wheels", 
                     "Link" : "Hardware_Primier/Wheels", 
                     "Page" : "HardwareWheelsPage"
-                },
-                {
-                    "SectionTitle" : "Transmissions", 
-                    "Link" : "Hardware_Primier/Transmissions", 
-                    "Page" : "HardwareTransmissionsPage"
                 },
                 {
                     "SectionTitle" : "Structure and Frame", 
@@ -72,7 +67,7 @@ export const SiteMap = {
                     "Page" : "SoftwareOverviewPage"
                 },
                 {
-                    "SectionTitle" : "Github", 
+                    "SectionTitle" : "Git and Github", 
                     "Link" : "Software_Primier/Github", 
                     "Page" : "SoftwareGithubPage"
                 },
@@ -83,14 +78,9 @@ export const SiteMap = {
                     "Crumb" : "Java"
                 },
                 {
-                    "SectionTitle" : "Android Studio", 
+                    "SectionTitle" : "Android Studio with FTC SDK", 
                     "Link" : "Software_Primier/Android_Studio", 
                     "Page" : "SoftwareAndroidPage"
-                },
-                {
-                    "SectionTitle" : "FTC SDK", 
-                    "Link" : "Software_Primier/FTC_SDK", 
-                    "Page" : "SoftwareSDKPage"
                 },
                 {
                     "SectionTitle" : "CAD System", 
