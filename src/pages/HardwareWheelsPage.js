@@ -61,14 +61,6 @@ function HardwareWheelsPage() {
                 </Col>
             </Row >
 
-            <Row className="px-4 my-5">
-                <Col xs={2} sm={2}>
-                    <Image src={require("./img/REV_Ultraplanetary.webp")} fluid /> 
-                    <Image src={require("./img/REV_Ultra90DegreeGearbox.webp")} fluid /> 
-                </Col>
-                <Col sm={8}>.
-                </Col>
-            </Row >
  
 
         </Container >)
