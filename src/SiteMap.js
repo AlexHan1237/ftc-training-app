@@ -110,14 +110,14 @@ export const SiteMap = {
                     "Page" : "IntegrationControlhubPage"
                 },
                 {
-                    "SectionTitle" : "Teleop Programming", 
-                    "Link" : "Hands-on_Excise/Teleop_Programming", 
-                    "Page" : "IntegrationTeleopPage"
-                },
-                {
-                    "SectionTitle" : "DriverHub Setup", 
+                    "SectionTitle" : "Driver Hub Setup", 
                     "Link" : "Hands-on_Excise/DriverHub_Setup", 
                     "Page" : "IntegrationDriverhubPage"
+                },
+                {
+                    "SectionTitle" : "TeleOp Programming", 
+                    "Link" : "Hands-on_Excise/Teleop_Programming", 
+                    "Page" : "IntegrationTeleopPage"
                 },
                 {
                     "SectionTitle" : "Test and Debug", 

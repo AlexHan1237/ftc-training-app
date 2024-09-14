@@ -41,7 +41,7 @@ function IntegrationControlhubPage() {
             Before programming your Control Hub, devices must be connected to the Control Hub. Below is a wiring diagram to 
             connect the Mecanum Wheels, the Battery Pack, and the Control Hub.  <p/>
             
-            <Image src={require("./img/starter_bot_wiring_diagram.png")} fluid /><p/>
+            <Image src={require("./img/starter_bot_wiring_diagram.png")} fluid width="40%"/><p/>
 
         </Container >)
 }
