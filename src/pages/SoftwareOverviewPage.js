@@ -8,9 +8,9 @@ function SoftwareOverviewPage() {
             some key types of software used in the field:<p />
             <ul>
                 <li><strong>Robot Controller Programming:</strong> Various actuators in a FTC robot are contorlled by an on-board computer system called
-                    REV ControlHub. The ControlHub runs an Android OS. The control logic is progrmmed in Java using Android Studio IDE.
+                    REV Control Hub. The Control Hub runs an Android OS. The control logic is progrmmed in Java using Android Studio IDE.
                     Special FTC qualified hardware components, such as DC motors, servo motors, and sensors, are interfaced with REV
-                    ControlHub by a FTC SDK. Short programs called TeleOps are developed to drive the hardware components by calling the
+                    Control Hub by a FTC SDK. Short programs called TeleOps are developed to drive the hardware components by calling the
                     SDK functions. We will show detailed steps to install and set the TeleOps development environment.<p/>
                 </li>
                 <li><strong>Robot Design Using CAD:</strong> CAD software allows for highly precise and accurate designs of robotic components and systems.

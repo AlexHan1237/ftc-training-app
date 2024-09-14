@@ -2,7 +2,7 @@ function SiteFooter() {
     return (
         <footer>
           <small>
-            &copy; {new Date().getFullYear()} made with{' '}
+            Information gathered from internet websites with{' '}
             <i class="bi bi-heart-fill" style={{ color: 'red' }} /> by -{' '}
             <a
               target="_blank"
@@ -11,6 +11,7 @@ function SiteFooter() {
             >
               Alexander Han
             </a>
+            ;  &copy; belongs to the original sources.
           </small>
         </footer>
       );

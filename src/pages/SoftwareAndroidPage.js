@@ -4,7 +4,7 @@ function SoftwareAndroidPage() {
     return (
         <Container>
             According to FTC rules, REV ContrlHub is the only choice for the robot controller. The primary coding IDE (Integrated
-            Developement Environment) of the Rev ControlHub is Android Studio. Special FTC SDK can be add Learning Android Studio involves understanding both
+            Developement Environment) of the Rev Control Hub is Android Studio. Special FTC SDK can be add Learning Android Studio involves understanding both
             the IDE itself and the process of developing Android apps. Here’s a structured approach to help you get started: <p />
 
             <h2>1. Install and Set Up Android Studio</h2>

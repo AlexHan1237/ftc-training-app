@@ -105,7 +105,7 @@ export const SiteMap = {
                     "Page" : "IntegrationChassisPage"
                 },
                 {
-                    "SectionTitle" : "ControlHub Setup", 
+                    "SectionTitle" : "Control Hub Setup", 
                     "Link" : "Hands-on_Excise/ControlHub_Setup", 
                     "Page" : "IntegrationControlhubPage"
                 },
