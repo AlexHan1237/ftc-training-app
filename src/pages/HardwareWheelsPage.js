@@ -8,7 +8,7 @@ function HardwareWheelsPage() {
                     <Image src={require("./img/Traction-Wheel.webp")} fluid />
                 </Col>
                 <Col sm={8}>
-                    <h2> Traction Wheels </h2>
+                    <h4> Traction Wheels </h4>
                     These wheels are a much smaller version of the wheels on cars and also operate the same way. These wheels are good
                     at moving in one direction, particularly moving forwards. However, these wheels are unable to turn without rotating
                     the wheels themselves causing them to not be as used as the other two wheels listed. <p />
@@ -21,7 +21,7 @@ function HardwareWheelsPage() {
                     <Image src={require("./img/Omni_Wheel.webp")} fluid />
                 </Col>
                 <Col sm={8}>
-                    <h2> Omni Wheels </h2>
+                    <h4> Omni Wheels </h4>
                     These wheels are similar to standard wheels but they are able to move not only forward and backward, but also
                     able to move left and right. This allows for greater precision and speed as the robot well be able to move left
                     or right without having to rotate the robot wheels itself. These wheels however lack the ability to move diagonally
@@ -40,7 +40,7 @@ function HardwareWheelsPage() {
                     <Image src={require("./img/mecanum_diagram.webp")} fluid />
                 </Col>
                 <Col sm={8}>
-                    <h2> Mecanum Wheels </h2>
+                    <h4> Mecanum Wheels </h4>
                     Mecanum wheels are often used in robotics competitions like FIRST Tech Challenge because they allow robots 
                     to move in all directions, which can be helpful for navigating the competition's terrain. <p />
 

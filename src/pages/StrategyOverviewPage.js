@@ -3,7 +3,7 @@ import { Col, Row, Image, Container } from "react-bootstrap";
 function StrategyOverviewPage() {
     return (
     <Container>
-        <h2> StrategyOverviewPage </h2>
+        <h4> StrategyOverviewPage </h4>
     </Container>)
 }
 

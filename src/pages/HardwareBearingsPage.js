@@ -8,7 +8,7 @@ function HardwareBearingsPage() {
                     <Image src={require("./img/ball_bearing.jpg")} fluid />
                 </Col>
                 <Col sm={8}>
-                    <h2> Mechanical Bearings </h2>
+                    <h4> Mechanical Bearings </h4>
                     A mechanical bearings facilitate rotational or linear movement between two parts while reducing friction and
                     wear. Bearings support radial and axial loads, which are the forces exerted perpendicular to and along the axis of
                     rotation, respectively. They are crucial in many machines and devices, from household appliances and vehicles
@@ -24,7 +24,7 @@ function HardwareBearingsPage() {
                     <Image src={require("./img/linear_bearing.jpg")} fluid />
                 </Col>
                 <Col sm={8}>
-                    <h2> Bearing Types </h2>
+                    <h4> Bearing Types </h4>
                     <strong>Ball Bearings</strong>: These use spherical balls to maintain separation between the bearing races,
                     reducing friction and allowing smooth rotation. They are commonly used in applications where precision and
                     speed are essential.<p />

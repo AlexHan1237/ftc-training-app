@@ -3,7 +3,7 @@ import { Col, Row, Image, Container } from "react-bootstrap";
 function IntegrationDriverhubPage() {
     return (
         <Container>
-            <h3>Setting up the Driver Hub</h3>
+            <h4>Setting up the Driver Hub</h4>
             When the Driver Hub is first powered up, or a factory reset is performed, an initial set up process is needed. 
             Start by selecting next on the main screen to continue. Step-by-step instructions to set up the Driver Hub 
             can be found <a href="https://docs.revrobotics.com/duo-control/driver-hub-gs">HERE</a>. Note that:
@@ -15,7 +15,7 @@ function IntegrationDriverhubPage() {
             </ul>
             <Image src={require("./img/driver_hub_ui.webp")} fluid width="40%"/> <p/>
  
-            <h3>Connecting Gamepads</h3>
+            <h4>Connecting Gamepads</h4>
             The Driver Station Application allows for the connection of two gamepads. When working with the Driver Hub these 
             gamepads can be plugged into any of the three USB 2.0 ports. Once the gamepads are plugged in, you will need 
             to initialize them. Detailed instruction for connecting and initializing the Gamepads can be found <a href="https://docs.revrobotics.com/duo-control/driver-hub-gs#connecting-gamepads">

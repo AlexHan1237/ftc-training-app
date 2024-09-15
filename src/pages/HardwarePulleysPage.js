@@ -8,7 +8,7 @@ function HardwarePulleysPage() {
                     <Image src={require("./img/pulley.jpg")} fluid />
                 </Col>
                 <Col sm={8}>
-                    <h2> Cable and Pulley System </h2>
+                    <h4> Cable and Pulley System </h4>
                     A cable and pulley system is a mechanical arrangement that uses cables, ropes, or belts and pulleys to transmit
                     force and movement. This system is commonly used to lift or move loads more efficiently by changing the direction
                     of the applied force and distributing the load. Pulleys are wheels with a groove around their circumference,
@@ -22,7 +22,7 @@ function HardwarePulleysPage() {
                     <Image src={require("./img/telescopic_rigging.png")} fluid />
                 </Col>
                 <Col sm={8}>
-                    <h2> Telescopic Linear Motion </h2>
+                    <h4> Telescopic Linear Motion </h4>
                     <strong>Input</strong>: motor pulley (in violet).<p />
                     There are two cables, red and blue. The red cable is wrapped around the green idle pulley of the base runway. 
                     One end of the red cable is fixed to the violet pulley. The other end of the red cable is fixed to lower pin 

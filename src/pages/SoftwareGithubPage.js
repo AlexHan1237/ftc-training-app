@@ -5,7 +5,7 @@ import { Container } from "react-bootstrap";
 function SoftwareGithubPage() {
     return (
         <Container>
-            <h2> What Are Git and GitHub? </h2>
+            <h4> What Are Git and GitHub? </h4>
             Git and GitHub are both essential tools in modern software development, but they serve different purposes. <p />
 
             <strong>Git</strong> is a distributed version control system. It helps track changes to files, manage different versions of a project,
@@ -40,7 +40,7 @@ function SoftwareGithubPage() {
             In short, Git is the tool for managing your code versions, and GitHub is a service that provides a collaborative
             platform to share and manage those versions. I learned Git and GitHub by watch YouTube video and Google search. <p />
 
-            <h2> Online Turorial </h2>
+            <h4> Online Turorial </h4>
             <iframe width="853" height="480" src="https://www.youtube.com/embed/tRZGeaHPoaw" title="Git and GitHub Tutorial for Beginners" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
             <p />

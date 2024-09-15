@@ -90,14 +90,14 @@ public class MecanumDrive2 extends LinearOpMode {
   `;
     return (
         <Container>
-            <h3>TeamCode Module</h3>
+            <h4>TeamCode Module</h4>
             In the Software Primere chapter, we have successfully imported the Android Studio project folder, you will see on the 
             project browser an Android module named TeamCode. The Android Studio project folder will be used to build a version of 
             the Robot Controller app that includes the custom op modes that you will write to control your competition robot.<p/>
 
             <Image src={require("./img/AS_teamcodeFolder.jpg")} fluid width="40%"/> <p/>
             
-            <h3>Creating Your First TeleOp Program</h3>
+            <h4>Creating Your First TeleOp Program</h4>
             Right mouse click on the org.firstinspires.ftc.teamcode package and select New-{'>'}Java Class from the pop-up menu. The 
             Create New Class dialog box appear. Specify the name of the new class as MyFIRSTJavaOpMode and specify as its superclass 
             the class LinearOpMode which is in the package com.qualcomm.robotcore.eventloop.opmode.<p/>
@@ -114,7 +114,7 @@ public class MecanumDrive2 extends LinearOpMode {
                     {codeString}
                 </code></pre><p/>
 
-            <h3>Building and Installing Your TeleOp</h3> 
+            <h4>Building and Installing Your TeleOp</h4> 
             verify that the Control Hub is powered by a freshly charged 12V battery, and that it is connected to your laptop through 
             its USB Type C port. Note that the Control Hub should automatically have USB debugging permission enabled.<p/> 
 

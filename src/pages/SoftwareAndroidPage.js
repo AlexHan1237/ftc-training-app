@@ -7,7 +7,7 @@ function SoftwareAndroidPage() {
             Developement Environment) of the Rev Control Hub is Android Studio. Special FTC SDK can be add Learning Android Studio involves understanding both
             the IDE itself and the process of developing Android apps. Here’s a structured approach to help you get started: <p />
 
-            <h2>1. Install and Set Up Android Studio</h2>
+            <h4>1. Install and Set Up Android Studio</h4>
             <ul>
                 <li>Download and Install Android Studio:</li>
                 Once you have verified that your laptop satisfies the minimum system requirements (8GB RAM, X86_64 CPU, and 64-bit
@@ -30,7 +30,7 @@ function SoftwareAndroidPage() {
 
 
 
-            <h2>2. Downloading FTC SDK</h2>
+            <h4>2. Downloading FTC SDK</h4>
             <p>The FTC SDK is stored in a repository called “FtcRobotController” under the <em>FIRST-Tech-Challenge</em> GitHub
                 organization:</p>
             <ul class="simple">
@@ -50,7 +50,7 @@ function SoftwareAndroidPage() {
             <p>Click on the Source code (zip) link to download the compressed Android
                 Studio project folder.</p>
 
-            <h2>3. Extracting the Contents of the Archived FTC SDK Project File</h2>
+            <h4>3. Extracting the Contents of the Archived FTC SDK Project File</h4>
             <p>Once you have downloaded the archived (.ZIP) project file, you must
                 first extract the contents of the archived project file to a folder where
                 your future robot controller code will be saved. For Windows
@@ -58,7 +58,7 @@ function SoftwareAndroidPage() {
                 pop up menu. Windows should prompt you to select a destination for the
                 extracted project folder.</p>
 
-            <h2>4. Importing the FTC SDK into Android Studio</h2>
+            <h4>4. Importing the FTC SDK into Android Studio</h4>
             <p>In order to import the Project, you will need to launch the Android
                 Studio software on your computer. On the main Android Studio Welcome
                 screen, select the option to “Import project (Gradle, Eclipse, ADT,
@@ -84,7 +84,7 @@ function SoftwareAndroidPage() {
 
             <Image src={require("./img/SuccessfullyImported.jpg")} fluid width="40%" /><p />
 
-            <h2>5. Online Tutorial</h2>
+            <h4>5. Online Tutorial</h4>
             <iframe width="853" height="480" src="https://www.youtube.com/embed/tqHGIsvgJ78" title="Android Studios Installation and Setup for FTC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <p />
         </Container >)

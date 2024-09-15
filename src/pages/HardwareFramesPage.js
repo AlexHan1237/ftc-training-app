@@ -8,7 +8,7 @@ function HardwareFramesPage() {
                     <Image src={require("./img/REV_Starter_Kit.webp")} fluid />
                 </Col>
                 <Col sm={8}>
-                    <h2> Structural Components </h2>
+                    <h4> Structural Components </h4>
                     The robot design is a complext project with multiple parts and systems to be integrated coherently.
                     But, it starts with the STRUCTURE design, the framework to which all other robot parts are attached.
                     The REV FTC Starter Kit, which is a 15mm building system that provides over 1400 parts, is a great way
@@ -22,7 +22,7 @@ function HardwareFramesPage() {
                     <Image src={require("./img/extrusion.webp")} fluid />
                 </Col>
                 <Col sm={8}>
-                    <h2> Extrusion </h2>
+                    <h4> Extrusion </h4>
                     REV Extrusion is a rectangular structure rail with slots for M3 hardware on all four sides. <p />
                     <ul class="simple">
                         <li>Slots allow for brackets to be placed anywhere </li>
@@ -39,7 +39,7 @@ function HardwareFramesPage() {
                     <Image src={require("./img/channel.webp")} fluid />
                 </Col>
                 <Col sm={8}>
-                    <h2> Channel </h2>
+                    <h4> Channel </h4>
                     REV Channel is a larger structural member featuring the Extended Motion Pattern for actuators,
                     brackets, and other elements to be placed at set intervals.<p />
 
@@ -63,7 +63,7 @@ function HardwareFramesPage() {
 
                 </Col>
                 <Col sm={8}>
-                    <h2> Brackets and Fasteners </h2>
+                    <h4> Brackets and Fasteners </h4>
                     REV brackets are designed to connect the structural extrusions and channels in many different ways. <p/>
                     REV 3mm fasteners are used in all structures. Special fastener shapes are included for linear motion support. <p/>
                 </Col>
