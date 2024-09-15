@@ -106,12 +106,12 @@ export const SiteMap = {
                 },
                 {
                     "SectionTitle" : "Control Hub Setup", 
-                    "Link" : "Hands-on_Excise/ControlHub_Setup", 
+                    "Link" : "Hands-on_Excise/Control_Hub_Setup", 
                     "Page" : "IntegrationControlhubPage"
                 },
                 {
                     "SectionTitle" : "Driver Hub Setup", 
-                    "Link" : "Hands-on_Excise/DriverHub_Setup", 
+                    "Link" : "Hands-on_Excise/Driver_Hub_Setup", 
                     "Page" : "IntegrationDriverhubPage"
                 },
                 {
@@ -160,39 +160,39 @@ export const SiteMap = {
                     "Link" : "Design_Trade-offs/Hanger_System", 
                     "Page" : "TradeoffsHangerPage"
                 },
-                {
-                    "SectionTitle" : "Paper Plane Lanuncher", 
-                    "Link" : "Design_Trade-offs/Paper_Plane_Lanuncher", 
-                    "Page" : "TradeoffsLauncherPage"
-                }
+                // {
+                //     "SectionTitle" : "Paper Plane Lanuncher", 
+                //     "Link" : "Design_Trade-offs/Paper_Plane_Lanuncher", 
+                //     "Page" : "TradeoffsLauncherPage"
+                // }
             ]
         },        
-        {
-            "chapterTitle": "Competition Strategy",
-            "icon": "SportsMartialArtsRounded",
-            "sections": [
-                {
-                    "SectionTitle" : "Overview", 
-                    "Link" : "Competition_Strategy", 
-                    "Page" : "StrategyOverviewPage"
-                },
-                {
-                    "SectionTitle" : "Team Alliance", 
-                    "Link" : "Competition_Strategy/Team_Alliance", 
-                    "Page" : "StrategyAlliancePage"
-                },
-                {
-                    "SectionTitle" : "Automonous Mode", 
-                    "Link" : "Competition_Strategy/Automonous_Mode", 
-                    "Page" : "StrategyAutomonousPage"
-                },
-                {
-                    "SectionTitle" : "Interactive Mode", 
-                    "Link" : "Competition_Strategy/Interactive_Mode", 
-                    "Page" : "StrategyInteractivePage"
-                }
-            ]
-        }
+        // {
+        //     "chapterTitle": "Competition Strategy",
+        //     "icon": "SportsMartialArtsRounded",
+        //     "sections": [
+        //         {
+        //             "SectionTitle" : "Overview", 
+        //             "Link" : "Competition_Strategy", 
+        //             "Page" : "StrategyOverviewPage"
+        //         },
+        //         {
+        //             "SectionTitle" : "Team Alliance", 
+        //             "Link" : "Competition_Strategy/Team_Alliance", 
+        //             "Page" : "StrategyAlliancePage"
+        //         },
+        //         {
+        //             "SectionTitle" : "Automonous Mode", 
+        //             "Link" : "Competition_Strategy/Automonous_Mode", 
+        //             "Page" : "StrategyAutomonousPage"
+        //         },
+        //         {
+        //             "SectionTitle" : "Interactive Mode", 
+        //             "Link" : "Competition_Strategy/Interactive_Mode", 
+        //             "Page" : "StrategyInteractivePage"
+        //         }
+        //     ]
+        // }
     ]
 };
 
