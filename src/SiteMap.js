@@ -141,13 +141,13 @@ export const SiteMap = {
                     "Page" : "TradeoffsChassisPage"
                 },
                 {
-                    "SectionTitle" : "Pixel In-take System", 
-                    "Link" : "Design_Trade-offs/Pixel_In-take_System", 
+                    "SectionTitle" : "Intake System", 
+                    "Link" : "Design_Trade-offs/Intake_System", 
                     "Page" : "TradeoffsIntakePage"
                 },
                 {
-                    "SectionTitle" : "Pixel Placement System", 
-                    "Link" : "Design_Trade-offs/Pixel_Placement_System", 
+                    "SectionTitle" : "Placement System", 
+                    "Link" : "Design_Trade-offs/Placement_System", 
                     "Page" : "TradeoffsPlacementPage"
                 },
                 {

@@ -41,7 +41,7 @@ function HardwareBearingsPage() {
 
                     <strong>Linear Bearings</strong>: These bearings has a rolling element that helps to support a load and 
                     provide precise, low-friction linear motion. Since FTC robots must do linear motions to pick up and place 
-                    pixels, linear bearings are quite common.<p />
+                    game pieces, linear bearings are quite common.<p />
                 </Col>
             </Row >
 

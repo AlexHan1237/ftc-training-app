@@ -14,7 +14,7 @@ function TradeoffsOverviewPage() {
             in tight spaces.<p />
 
             <h4>2. Manipulation Mechanisms</h4>
-            <strong>In-take System</strong>: Design an articulated arm for picking up and placing game pieces. Consider using
+            <strong>Intake System</strong>: Design an articulated arm for picking up and placing game pieces. Consider using
             a rotary joint for better reach.<br />
             <strong>Placement System</strong>: Use a conveyor system to transport game pieces from the storage holder to the 
             scoring area.<p />
