@@ -18,7 +18,6 @@ In FTC, teams of up to 15 students work together with adult coaches and mentors 
 <p className="mt-4">
 During competitions, teams earn points by completing tasks based on a set of game rules. The order and alliances of matches are random, and the number of matches varies based on the number of teams competing.
                 </p>
-                <Button variant="outline-primary">Get Started &gt;&gt;</Button>
             </Col>
         </Row>
     </Container>)

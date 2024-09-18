@@ -33,6 +33,10 @@ class SiteNav extends React.Component {
         }
     };
 
+    handleLogout = () => {
+        this.props.logOut();
+    };
+
     handleFormSubmit = e => e.preventDefault();
     render() {
         const { collapsed, handleCollapsedChange } = this.props;
@@ -48,7 +52,10 @@ class SiteNav extends React.Component {
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
-                            <Form className="ms-md-auto d-flex" onSubmit={this.handleFormSubmit}>
+                            <Nav className="ms-md-auto link-warning">
+                                <Nav.Link onClick={this.handleLogout}>Logout</Nav.Link>
+                            </Nav>
+                            <Form className="d-flex" onSubmit={this.handleFormSubmit}>
                                 <Form.Control
                                     onChange={this.handleSearchInput}
                                     value={this.state.searchText}

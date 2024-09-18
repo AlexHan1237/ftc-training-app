@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Outlet } from 'react-router-dom';
 
 import { Amplify } from 'aws-amplify';
+import { useAuthenticator } from '@aws-amplify/ui-react';
 import awsExports from './aws-exports';
 
 import './App.css';
@@ -19,23 +20,20 @@ Amplify.configure(awsExports);
 
 function App() {
   const [collapsed, setCollapsed] = useState(false);
-  const [showSplashScreen, setShowSplashScreen] = useState(true);
-  useEffect(() => {
-    setTimeout(() => {
-      setShowSplashScreen(false);
-    }, 105000);
-  }, []);
-
+  
   const handleCollapsedChange = () => {
     setCollapsed(!collapsed);
   };
 
 
-  if (!showSplashScreen) {
+  const { user, signOut } = useAuthenticator((context) => [context.user]);
+  if (user) {
     return (
       <div className="my-div">
         <SiteNav  collapsed={collapsed} 
-                  handleCollapsedChange={handleCollapsedChange} />
+                  handleCollapsedChange={handleCollapsedChange} 
+                  logOut={signOut} 
+                  userName={user}/>
         {/* <SiteNav2 /> */}
         {/* <div className={`app ${toggled ? 'toggled' : ''}`}> */}
         <div className={`app ${''}`}>
