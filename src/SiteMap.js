@@ -132,37 +132,37 @@ export const SiteMap = {
             "sections": [
                 {
                     "SectionTitle" : "Overview", 
-                    "Link" : "Design_Trade-offs",
+                    "Link" : "Design_Ideas",
                     "Page" : "TradeoffsOverviewPage"
                 },
                 {
                     "SectionTitle" : "Chassis Design", 
-                    "Link" : "Design_Trade-offs/Chassis_Design", 
+                    "Link" : "Design_Ideas/Chassis_Design", 
                     "Page" : "TradeoffsChassisPage"
                 },
                 {
                     "SectionTitle" : "Intake System", 
-                    "Link" : "Design_Trade-offs/Intake_System", 
+                    "Link" : "Design_Ideas/Intake_System", 
                     "Page" : "TradeoffsIntakePage"
                 },
                 {
                     "SectionTitle" : "Placement System", 
-                    "Link" : "Design_Trade-offs/Placement_System", 
+                    "Link" : "Design_Ideas/Placement_System", 
                     "Page" : "TradeoffsPlacementPage"
                 },
                 // {
                 //     "SectionTitle" : "Kinematics and Dynamics", 
-                //     "Link" : "Design_Trade-offs/Kinematics_and_Dynamics", 
+                //     "Link" : "Design_Ideas/Kinematics_and_Dynamics", 
                 //     "Page" : "TradeoffsKinematicsPage"
                 // },
                 {
-                    "SectionTitle" : "Hanger System", 
-                    "Link" : "Design_Trade-offs/Hanger_System", 
+                    "SectionTitle" : "FTC 2024-2025 INTO THE DEEP", 
+                    "Link" : "Design_Ideas/FTC_2024-2025_INTO_THE_DEEP", 
                     "Page" : "TradeoffsHangerPage"
                 },
                 // {
                 //     "SectionTitle" : "Paper Plane Lanuncher", 
-                //     "Link" : "Design_Trade-offs/Paper_Plane_Lanuncher", 
+                //     "Link" : "Design_Ideas/Paper_Plane_Lanuncher", 
                 //     "Page" : "TradeoffsLauncherPage"
                 // }
             ]

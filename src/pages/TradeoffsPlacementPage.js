@@ -68,6 +68,8 @@ function TradeoffsPlacementPage() {
             <iframe width="944" height="487" src="https://www.youtube.com/embed/nmyvMkfxtbo" title="Screw 3-stage telescopic actuator" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
             <iframe width="342" height="607" src="https://www.youtube.com/embed/c8Nv4Bas8Ow" title="3D Printed Rigid Chain Mechanism by gzumwalt  #shorts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p />
+
         </Container >)
 }
 
