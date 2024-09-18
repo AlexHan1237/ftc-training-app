@@ -127,7 +127,7 @@ export const SiteMap = {
             ]
         },        
         {
-            "chapterTitle": "Design Trade-offs",
+            "chapterTitle": "System Design Ideas",
             "icon": "BalanceRounded",
             "sections": [
                 {
@@ -150,11 +150,11 @@ export const SiteMap = {
                     "Link" : "Design_Trade-offs/Placement_System", 
                     "Page" : "TradeoffsPlacementPage"
                 },
-                {
-                    "SectionTitle" : "Kinematics and Dynamics", 
-                    "Link" : "Design_Trade-offs/Kinematics_and_Dynamics", 
-                    "Page" : "TradeoffsKinematicsPage"
-                },
+                // {
+                //     "SectionTitle" : "Kinematics and Dynamics", 
+                //     "Link" : "Design_Trade-offs/Kinematics_and_Dynamics", 
+                //     "Page" : "TradeoffsKinematicsPage"
+                // },
                 {
                     "SectionTitle" : "Hanger System", 
                     "Link" : "Design_Trade-offs/Hanger_System", 
