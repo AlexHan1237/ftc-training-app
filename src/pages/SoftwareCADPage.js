@@ -10,7 +10,7 @@ function SoftwareCADPage() {
             printing. Although the shape we create may seem basic and just a glimpse of the program’s full potential,
             it will introduce you to the essential tools you need to get started.<p />
 
-            <h4>Step 1: Create an Account</h4>
+            <h4>1: Create an Account</h4>
             Simply go to the <a href="https://onshape.com">Onshape website (https://onshape.com)</a> and select your
             subscription level to sign up. <p />
 
@@ -29,7 +29,7 @@ function SoftwareCADPage() {
             </ul>
             <Image src={require("./img/onshape_doc1.PNG")} fluid width="40%" /><p />
 
-            <h4>Step 2: Create a Document</h4>
+            <h4>2: Create a Document</h4>
             OnShape CAD modeling starts with creating a new document. A "document" in OnShape is a database in the cloud where
             all relevent modeling data are stored. The modeling data is created by using the factories, such as Part Studio,
             Assembly etc. <p />
@@ -59,7 +59,7 @@ function SoftwareCADPage() {
             At the top of the screen, you’ll find various 3D tools on the toolbar. Click on the Sketch tool (4) to begin
             creating a 2D profile.<p />
 
-            <h4>Step 3: Create a Sketch and an Extrusion</h4>
+            <h4>3: Create a Sketch and an Extrusion</h4>
 
             <Image src={require("./img/onshape_sketch.jpg")} fluid width="40%" /><p />
 
@@ -69,7 +69,7 @@ function SoftwareCADPage() {
             <iframe width="866" height="487" src="https://www.youtube.com/embed/Oo5Zpkyqn3o" title="OnShape Part" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <p />
 
-            <h4>Step 4: Create an Assembly</h4>
+            <h4>4: Create an Assembly</h4>
             You might notice that your document automatically created the “Assembly 1” tab. Click on it and you’ll
             switch to the assembly mode. The toolbar has changed significantly.<p />
 
@@ -93,7 +93,7 @@ function SoftwareCADPage() {
             <p />
 
             
-            <h4>Step 5: Export to 3D Printing</h4>
+            <h4>5: Export to 3D Printing</h4>
 
             Once your design is ready to print you would need to export it as an STL file from Onshape and then import 
             the STL file into your slicer (Cura, Simplify3D, Prusa Slicer etc). Most 3D printers come with their own slicer 

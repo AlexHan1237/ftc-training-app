@@ -47,7 +47,7 @@ function StrategyAutomonousPage() {
             <Row className="px-4 my-5">
                 <Col xs={2} sm={2}>
                     <Image src={require("./img/spur_gears.png")} fluid />
-                    <Image src={require("./img/rack_pinion.webp")} fluid />
+                    <Image src={require("./img/rack_pinion.png")} fluid />
                     <Image src={require("./img/bevel_gears.jpg")} fluid />
                 </Col>
                 <Col sm={8}>
@@ -65,8 +65,8 @@ function StrategyAutomonousPage() {
 
             <Row className="px-4 my-5">
                 <Col xs={2} sm={2}>
-                    <Image src={require("./img/REV_Ultraplanetary.webp")} fluid /> 
-                    <Image src={require("./img/REV_Ultra90DegreeGearbox.webp")} fluid /> 
+                    <Image src={require("./img/REV_Ultraplanetary.png")} fluid /> 
+                    <Image src={require("./img/REV_Ultra90DegreeGearbox.png")} fluid /> 
                 </Col>
                 <Col sm={8}>
                     <h4> Gearboxes </h4>

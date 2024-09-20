@@ -5,7 +5,7 @@ function HardwareFramesPage() {
         <Container>
             <Row className="px-4 my-5">
                 <Col xs={2} sm={2}>
-                    <Image src={require("./img/REV_Starter_Kit.webp")} fluid />
+                    <Image src={require("./img/REV_Starter_Kit.png")} fluid />
                 </Col>
                 <Col sm={8}>
                     <h4> Structural Components </h4>
@@ -19,7 +19,7 @@ function HardwareFramesPage() {
 
             <Row className="px-4 my-5">
                 <Col xs={2} sm={2}>
-                    <Image src={require("./img/extrusion.webp")} fluid />
+                    <Image src={require("./img/extrusion.png")} fluid />
                 </Col>
                 <Col sm={8}>
                     <h4> Extrusion </h4>
@@ -36,7 +36,7 @@ function HardwareFramesPage() {
 
             <Row className="px-4 my-5">
                 <Col xs={2} sm={2}>
-                    <Image src={require("./img/channel.webp")} fluid />
+                    <Image src={require("./img/channel.png")} fluid />
                 </Col>
                 <Col sm={8}>
                     <h4> Channel </h4>
@@ -58,8 +58,8 @@ function HardwareFramesPage() {
 
             <Row className="px-4 my-5">
                 <Col xs={2} sm={2}>
-                    <Image src={require("./img/brackets.webp")} fluid />
-                    <Image src={require("./img/M3_Hardware.webp")} fluid />
+                    <Image src={require("./img/brackets.png")} fluid />
+                    <Image src={require("./img/M3_Hardware.png")} fluid />
 
                 </Col>
                 <Col sm={8}>

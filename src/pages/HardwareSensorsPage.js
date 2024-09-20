@@ -5,7 +5,7 @@ function HardwareSensorsPage() {
         <Container>
             <Row className="px-4 my-5">
                 <Col xs={2} sm={2}>
-                    <Image src={require("./img/REV-sensors.webp")} fluid />
+                    <Image src={require("./img/REV-sensors.png")} fluid />
                 </Col>
                 <Col sm={8}>
                     <h4> Sensors </h4>
@@ -33,9 +33,9 @@ function HardwareSensorsPage() {
 
             <Row className="px-4 my-5">
                 <Col xs={2} sm={2}>
-                    <Image src={require("./img/Touch_Sensor.webp")} fluid />
-                    <Image src={require("./img/magnetic_Sensor.webp")} fluid />
-                    <Image src={require("./img/potentiometer.webp")} fluid />
+                    <Image src={require("./img/Touch_Sensor.png")} fluid />
+                    <Image src={require("./img/magnetic_Sensor.png")} fluid />
+                    <Image src={require("./img/potentiometer.png")} fluid />
                 </Col>
                 <Col sm={8}>
                     <h4> Basic Sensors </h4>

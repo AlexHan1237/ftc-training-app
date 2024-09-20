@@ -17,7 +17,7 @@ function HardwareChainsBeltsPage() {
             </Row >
             <Row className="px-4 my-5">
                 <Col xs={2} sm={2}>
-                    <Image src={require("./img/belts.webp")} fluid />
+                    <Image src={require("./img/belts.png")} fluid />
                 </Col>
                 <Col sm={8}>
                     <h4> Chains </h4>
@@ -31,7 +31,7 @@ function HardwareChainsBeltsPage() {
 
             <Row className="px-4 my-5">
                 <Col xs={2} sm={2}>
-                    <Image src={require("./img/chains.webp")} fluid />
+                    <Image src={require("./img/chains.png")} fluid />
                 </Col>
                 <Col sm={8}>
                     <h4> Belts </h4>

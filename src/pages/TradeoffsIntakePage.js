@@ -19,7 +19,7 @@ function TradeoffsIntakePage() {
             and transport game pieces into the storage area. The sweepers can be configured either as a sideways roller 
             or as a top roller.<p/>
             <Image src={require("./img/TO_sideway_intake.jpg")} fluid width="40%"/> 
-            <Image src={require("./img/TO_toproller_intake.webp")} fluid width="40%"/> <p/>
+            <Image src={require("./img/TO_toproller_intake.png")} fluid width="40%"/> <p/>
 
             2. <strong>Gripper Mechanism</strong>: The gripper mechanism can vary significantly depending on the application 
             and the types of objects it needs to handle. In FTC robotics, common types include Parallel Grippers, which 

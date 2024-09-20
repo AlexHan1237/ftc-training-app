@@ -5,7 +5,7 @@ function HardwareMotorsPage() {
         <Container>
             <Row className="px-4 my-5">
                 <Col xs={2} sm={2}>
-                    <Image src={require("./img/motors.webp")} fluid />
+                    <Image src={require("./img/motors.png")} fluid />
                 </Col>
                 <Col sm={8}>
                     <h4> Motors </h4>
@@ -19,7 +19,7 @@ function HardwareMotorsPage() {
 
             <Row className="px-4 my-5">
                 <Col xs={2} sm={2}>
-                    <Image src={require("./img/dc_motor.webp")} fluid />
+                    <Image src={require("./img/dc_motor.png")} fluid />
                 </Col>
                 <Col sm={8}>
                     <h4> How DC Motors Work? </h4>
@@ -43,8 +43,8 @@ function HardwareMotorsPage() {
 
             <Row className="px-4 my-5">
                 <Col xs={2} sm={2}>
-                    <Image src={require("./img/REV_HD_Hex.webp")} fluid />
-                    <Image src={require("./img/REV_Core_Hex.webp")} fluid />
+                    <Image src={require("./img/REV_HD_Hex.png")} fluid />
+                    <Image src={require("./img/REV_Core_Hex.png")} fluid />
                 </Col>
                 <Col sm={8}>
                     <h4> DC Servo Motors </h4>

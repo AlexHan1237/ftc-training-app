@@ -43,7 +43,7 @@ function TradeoffsPlacementPage() {
             A cascade or elevator lift is very popular in FTC competition. This lift provides an immense amount of height,
             while taking not a lot of space. The following diagram shows how the mechanism works: <p />
 
-            <Image src={require("./img/TO_lift.webp")} fluid width="40%" /> <p />
+            <Image src={require("./img/TO_lift.png")} fluid width="40%" /> <p />
 
             Cascade lifts can be constructed in various forms and materials. They use c-channels or 80/20 extrusion, sprockets,
             and cable or chain to connect each bar together. These bars run parallel to the structural frame of the lift,

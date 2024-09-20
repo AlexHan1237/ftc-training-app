@@ -17,7 +17,7 @@ function HardwareShaftsFastenersPage() {
 
             <Row className="px-4 my-5">
                 <Col xs={2} sm={2}>
-                    <Image src={require("./img/REV_Hex_Shafts.webp")} fluid />
+                    <Image src={require("./img/REV_Hex_Shafts.png")} fluid />
                 </Col>
                 <Col sm={8}>
                     <h4> Hex Shaft and Accessories </h4>
@@ -28,7 +28,7 @@ function HardwareShaftsFastenersPage() {
 
             <Row className="px-4 my-5">
                 <Col xs={2} sm={2}>
-                    <Image src={require("./img/shaft_Collar.webp")} fluid />
+                    <Image src={require("./img/shaft_Collar.png")} fluid />
                 </Col>
                 <Col sm={8}>
                     <strong>Collar Fastener</strong>: The collar fastener is to limit the axial movement of the shaft. <p />
@@ -37,7 +37,7 @@ function HardwareShaftsFastenersPage() {
 
             <Row className="px-4 my-5">
                 <Col xs={2} sm={2}>
-                    <Image src={require("./img/REV_Hex_Shaft_Spacer.webp")} fluid />
+                    <Image src={require("./img/REV_Hex_Shaft_Spacer.png")} fluid />
                 </Col>
                 <Col sm={8}>
                     <strong>Spacer</strong>: The inner cross section is hexegonal to match the shaft, and the outer profile is
@@ -47,7 +47,7 @@ function HardwareShaftsFastenersPage() {
 
             <Row className="px-4 my-5">
                 <Col xs={2} sm={2}>
-                    <Image src={require("./img/REV_Hex_Flanged_Bearing.webp")} fluid />
+                    <Image src={require("./img/REV_Hex_Flanged_Bearing.png")} fluid />
                 </Col>
                 <Col sm={8}>
                     <strong>Flanged Bearing</strong>: The inner cross-section is hexagonal to align with the shaft, while the

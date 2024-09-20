@@ -13,14 +13,14 @@ function IntegrationDriverhubPage() {
                 <li>Select the Update All button to start the download and installation of software updates for the Driver Hub.</li>
                 <li>The Control Hub should be ON during the Driver Hub setup process.</li>
             </ul>
-            <Image src={require("./img/driver_hub_ui.webp")} fluid width="40%"/> <p/>
+            <Image src={require("./img/driver_hub_ui.png")} fluid width="40%"/> <p/>
  
             <h4>Connecting Gamepads</h4>
             The Driver Station Application allows for the connection of two gamepads. When working with the Driver Hub these 
             gamepads can be plugged into any of the three USB 2.0 ports. Once the gamepads are plugged in, you will need 
             to initialize them. Detailed instruction for connecting and initializing the Gamepads can be found <a href="https://docs.revrobotics.com/duo-control/driver-hub-gs#connecting-gamepads">
             HERE</a>. <p/>
-            <Image src={require("./img/gamepads.webp")} fluid width="40%"/> <p/>
+            <Image src={require("./img/gamepads.png")} fluid width="40%"/> <p/>
 
         </Container >)
 }

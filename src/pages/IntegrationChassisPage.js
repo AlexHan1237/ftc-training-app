@@ -5,7 +5,7 @@ function IntegrationChassisPage() {
         <Container>
             <Row className="px-4 my-5">
                 <Col xs={2} sm={2}>
-                    <Image src={require("./img/REV-MecanumDrivetrain.webp")} fluid />
+                    <Image src={require("./img/REV-MecanumDrivetrain.png")} fluid />
                 </Col>
                 <Col sm={8}>
                     <h4> What to build? </h4>

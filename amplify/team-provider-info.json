@@ -14,9 +14,26 @@
     "categories": {
       "auth": {
         "ftctraininghub514f5c45": {}
-      },
-      "api": {
-        "traineeCreditAPI": {}
+      }
+    }
+  },
+  "devenv": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ftctraininghub-devenv-3daa1-authRole",
+      "UnauthRoleArn": "arn:aws:iam::533267341288:role/amplify-ftctraininghub-devenv-3daa1-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::533267341288:role/amplify-ftctraininghub-devenv-3daa1-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-ftctraininghub-devenv-3daa1-deployment",
+      "UnauthRoleName": "amplify-ftctraininghub-devenv-3daa1-unauthRole",
+      "StackName": "amplify-ftctraininghub-devenv-3daa1",
+      "StackId": "arn:aws:cloudformation:us-east-1:533267341288:stack/amplify-ftctraininghub-devenv-3daa1/d8311740-7628-11ef-a4bb-0e498d4edb95",
+      "AmplifyAppId": "d2hv3zdnk0dvf0"
+    },
+    "categories": {
+      "auth": {
+        "ftctraininghub514f5c45": {},
+        "userPoolGroups": {},
+        "ftcTrainingHub": {}
       }
     }
   }

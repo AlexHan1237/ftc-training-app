@@ -5,7 +5,7 @@ function HardwareWheelsPage() {
         <Container>
             <Row className="px-4 my-5">
                 <Col xs={2} sm={2}>
-                    <Image src={require("./img/Traction-Wheel.webp")} fluid />
+                    <Image src={require("./img/Traction-Wheel.png")} fluid />
                 </Col>
                 <Col sm={8}>
                     <h4> Traction Wheels </h4>
@@ -18,7 +18,7 @@ function HardwareWheelsPage() {
 
             <Row className="px-4 my-5">
                 <Col xs={2} sm={2}>
-                    <Image src={require("./img/Omni_Wheel.webp")} fluid />
+                    <Image src={require("./img/Omni_Wheel.png")} fluid />
                 </Col>
                 <Col sm={8}>
                     <h4> Omni Wheels </h4>
@@ -37,7 +37,7 @@ function HardwareWheelsPage() {
             <Row className="px-4 my-5">
                 <Col xs={2} sm={2}>
                     <Image src={require("./img/Mecanum_Wheel.png")} fluid />
-                    <Image src={require("./img/mecanum_diagram.webp")} fluid />
+                    <Image src={require("./img/mecanum_diagram.png")} fluid />
                 </Col>
                 <Col sm={8}>
                     <h4> Mecanum Wheels </h4>
