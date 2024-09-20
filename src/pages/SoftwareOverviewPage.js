@@ -3,7 +3,7 @@ import { Col, Row, Image, Container } from "react-bootstrap";
 function SoftwareOverviewPage() {
     return (
         <Container>
-            <h4> Software Overview </h4>
+            <h2> Software Overview </h2>
             In robotics, software plays a crucial role in designing, controlling, and programming robots. Here are
             some key types of software used in the field:<p />
             <ul>

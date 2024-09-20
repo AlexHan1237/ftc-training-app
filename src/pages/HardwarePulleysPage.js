@@ -3,12 +3,13 @@ import { Col, Row, Image, Container } from "react-bootstrap";
 function HardwarePulleysPage() {
     return (
         <Container>
+            <h2>Cable and Pulley Systems</h2>
             <Row className="px-4 my-5">
                 <Col xs={2} sm={2}>
                     <Image src={require("./img/pulley.jpg")} fluid />
                 </Col>
                 <Col sm={8}>
-                    <h4> Cable and Pulley System </h4>
+                    <h4>1. What Is A Cable and Pulley System? </h4>
                     A cable and pulley system is a mechanical arrangement that uses cables, ropes, or belts and pulleys to transmit
                     force and movement. This system is commonly used to lift or move loads more efficiently by changing the direction
                     of the applied force and distributing the load. Pulleys are wheels with a groove around their circumference,
@@ -22,16 +23,18 @@ function HardwarePulleysPage() {
                     <Image src={require("./img/telescopic_rigging.png")} fluid />
                 </Col>
                 <Col sm={8}>
-                    <h4> Telescopic Linear Motion </h4>
-                    <strong>Input</strong>: motor pulley (in violet).<p />
-                    There are two cables, red and blue. The red cable is wrapped around the green idle pulley of the base runway. 
-                    One end of the red cable is fixed to the violet pulley. The other end of the red cable is fixed to lower pin 
-                    of the yellow slider. The blue cable is wrapped around the green idle pulley of the yellow slider. One end 
-                    of the blue cable is fixed to lower pin of the base runway. The other end of the blue cable is fixed to 
-                    lower pin of the blue slider.<p />
-                    The motor pulls the sliders up. The device to keep the sliders at up positions is not shown. The sliders 
-                    move down thanks to the gravity or contraction spring. The blue slider moves twice as fast as the yellow 
-                    slider. <p />
+                    <h4>2. Cascade Lift </h4>
+                    One significant application of the cable and pulley system in FTC robotics is in the Cascade linear motion 
+                    mechanism. As shown in the diagram, the input consists of a motorized pulley (shown in violet) and two 
+                    cables—red and blue. The red cable is wrapped around the green idle pulley at the base runway. One end of 
+                    the red cable is anchored to the violet pulley, while the other end is attached to the lower pin of the 
+                    yellow slider. The blue cable, on the other hand, is wrapped around the green idle pulley of the yellow 
+                    slider. One end of the blue cable is fixed to the lower pin of the base runway, and the other end connects 
+                    to the lower pin of the blue slider. <p/>
+
+                    The motor pulls the sliders upward, though the mechanism for holding them in position isn’t depicted here. 
+                    The sliders descend due to gravity or a contraction spring. Notably, the blue slider moves at twice the 
+                    speed of the yellow slider.<p/>
                 </Col>
             </Row >
 

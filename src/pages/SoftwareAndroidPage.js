@@ -3,9 +3,11 @@ import { Col, Row, Image, Container } from "react-bootstrap";
 function SoftwareAndroidPage() {
     return (
         <Container>
+            <h2>Android Studio with FTC SDK</h2>
             According to FTC rules, REV ContrlHub is the only choice for the robot controller. The primary coding IDE (Integrated
-            Developement Environment) of the Rev Control Hub is Android Studio. Special FTC SDK can be add Learning Android Studio involves understanding both
-            the IDE itself and the process of developing Android apps. Here’s a structured approach to help you get started: <p />
+            Developement Environment) of the Rev Control Hub is Android Studio. Special FTC SDK is provided for FTC qualified
+            hardware. Learning Android Studio involves understanding both the IDE itself and the process of developing Android
+            apps. Here’s a structured approach to help you get started: <p />
 
             <h4>1. Install and Set Up Android Studio</h4>
             <ul>
@@ -26,9 +28,7 @@ function SoftwareAndroidPage() {
                 <li>Set Up Your Development Environment:</li>
                 Launch Android Studio and follow the setup wizard to install additional tools and SDK components. You can also
                 configure the IDE according to your preferences, such as color themes.<p />
-            </ul>
-
-
+            </ul><p />
 
             <h4>2. Downloading FTC SDK</h4>
             <p>The FTC SDK is stored in a repository called “FtcRobotController” under the <em>FIRST-Tech-Challenge</em> GitHub

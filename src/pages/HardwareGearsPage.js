@@ -3,12 +3,13 @@ import { Col, Row, Image, Container } from "react-bootstrap";
 function HardwareGearsPage() {
     return (
         <Container>
+            <h2> Gears </h2>
             <Row className="px-4 my-5">
                 <Col xs={2} sm={2}>
                     <Image src={require("./img/spur_gears.gif")} fluid />
                 </Col>
                 <Col sm={8}>
-                    <h4> What Are Gears? </h4>
+                    <h4>1. What Are Gears? </h4>
                     In machinery and vehicles, gear refers to a toothed wheel that engages with another gear to transmit motion and torque.
                     For example, in a car, the gear shift allows you to change the vehicle’s speed and power. <p />
                     The profile of gear teeth is crucial for ensuring that gears mesh smoothly and operate efficiently. The most common and
@@ -23,7 +24,7 @@ function HardwareGearsPage() {
                     <Image src={require("./img/gear_terms.jpg")} fluid />
                 </Col>
                 <Col sm={8}>
-                    <h4> Gear Terms </h4>
+                    <h4>2. Gear Terms </h4>
                     <strong>Axis</strong>: The axis of revolution of the gear, where the shaft passes through.<p />
                     <strong>Teeth</strong>: The teeth normally has involute profiles.<p />
                     <strong>Pitch Circle</strong>: The circle that defines the "size" of the gear. The pitch circles of two meshing gears need to be tangent
@@ -51,13 +52,13 @@ function HardwareGearsPage() {
                     <Image src={require("./img/bevel_gears.jpg")} fluid />
                 </Col>
                 <Col sm={8}>
-                    <h4> Common Gears </h4>
+                    <h4>3. Common Gears </h4>
                     <strong>Spur Gears</strong>: Spur gears are used to transfer motion from one shaft to a parallel shaft. The teeth are cut straight up and
                     down, parallel to the axis of rotation. When two adjacent spur gears mesh, they spin in opposite directions. These gears
-                    are most commonly used because they can be easily made.<p/>
+                    are most commonly used because they can be easily made.<p />
                     <strong>Rack and Pinion</strong>: The rack and pinion converts the rotational motion of a gear (the pinion) to the linear motion of a
                     rack. The pinion is just like any other spur gear, and it meshes with the rack, which is a rail with teeth. The rack
-                    slides continuously as the gear rotates.<p/>
+                    slides continuously as the gear rotates.<p />
                     <strong>Bevel Gears</strong>: Bevel gears are a type of gear used to transmit power from one axis to another non-parallel axis. Bevel
                     gears have slanted teeth, which actually makes the shape of their "pitch diameter" a cone.<p />
                 </Col>
@@ -65,20 +66,20 @@ function HardwareGearsPage() {
 
             <Row className="px-4 my-5">
                 <Col xs={2} sm={2}>
-                    <Image src={require("./img/REV_Ultraplanetary.png")} fluid /> 
-                    <Image src={require("./img/REV_Ultra90DegreeGearbox.png")} fluid /> 
+                    <Image src={require("./img/REV_Ultraplanetary.png")} fluid />
+                    <Image src={require("./img/REV_Ultra90DegreeGearbox.png")} fluid />
                 </Col>
                 <Col sm={8}>
-                    <h4> Gearboxes </h4>
+                    <h4>4. Gearboxes </h4>
                     Gearboxes, aka transmissions, take the rotation of an input shaft, usually the axle of a motor, and through a series of gears alter the speed
                     and power coming from the input shaft to turn an output shaft at a desired speed or torque. Gearboxes are usually
                     classified in terms of their overall speed ratio, the ratio of the speed of the input shaft to the speed of the output
                     shaft.<p />
-                    The figures on the left show some common gearboxes used in FTC robots. The first one is a planetary gearbox where the 
+                    The figures on the left show some common gearboxes used in FTC robots. The first one is a planetary gearbox where the
                     input and output axes are co-linear. The second is a 90-degree gearbox where the input and output axes form a 90 degrees angle.
                 </Col>
             </Row >
- 
+
 
         </Container >)
 }

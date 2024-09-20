@@ -3,6 +3,7 @@ import { Col, Row, Image, Container } from "react-bootstrap";
 function TradeoffsChassisPage() {
     return (
         <Container>
+            <h2>Chassis Design</h2>
             <h4>1. Drive Train Design</h4>
             <strong>Mecanum Wheels</strong>: Use Mecanum Wheels to allow for smooth movement in any direction. This can
             help with maneuverability in tight spaces during matches. Even though the FTC game rules changing every year, 

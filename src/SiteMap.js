@@ -32,7 +32,7 @@ export const SiteMap = {
                 },
                 {
                     "SectionTitle" : "Cable and Pulley Systems", 
-                    "Link" : "Hardware_Primier/pulleys", 
+                    "Link" : "Hardware_Primier/Cable_and_Pulley_Systems", 
                     "Page" : "HardwarePulleysPage"
                 },
                 {
@@ -68,7 +68,7 @@ export const SiteMap = {
                 },
                 {
                     "SectionTitle" : "Git and Github", 
-                    "Link" : "Software_Primier/Github", 
+                    "Link" : "Software_Primier/Git_and_GitHub", 
                     "Page" : "SoftwareGithubPage"
                 },
                 {
@@ -79,7 +79,7 @@ export const SiteMap = {
                 },
                 {
                     "SectionTitle" : "Android Studio with FTC SDK", 
-                    "Link" : "Software_Primier/Android_Studio", 
+                    "Link" : "Software_Primier/Android_Studio_with_FTC_SDK", 
                     "Page" : "SoftwareAndroidPage"
                 },
                 {

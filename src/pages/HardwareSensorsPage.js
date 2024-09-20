@@ -3,25 +3,26 @@ import { Col, Row, Image, Container } from "react-bootstrap";
 function HardwareSensorsPage() {
     return (
         <Container>
+            <h2> Sensors </h2>
             <Row className="px-4 my-5">
                 <Col xs={2} sm={2}>
                     <Image src={require("./img/REV-sensors.png")} fluid />
                 </Col>
                 <Col sm={8}>
-                    <h4> Sensors </h4>
+                    <h4>1. What Sensors Do? </h4>
                     Sensors provide information that allows you to program the robot to use this information to perform specific 
                     actions. This allows the robot to perform at its best and in a repeatable manner. Scenarios where a sensor 
                     is needed:<p />
                     <ul>
-                        <li>The robot needs to autonomously move to a specific location and stop there.</li>
+                        <li>Autonomously move to a specific location and stop there.</li>
 
-                        <li>The robot needs to move forward at a green signal and stop moving at a red signal.</li>
+                        <li>Move forward at a green signal and stop moving at a red signal.</li>
 
-                        <li>The robot has an arm that needs to be prevented from rotating too far or it may damage other parts of the robot.</li>
+                        <li>Robot arm needs to be prevented from rotating too far or it may damage other parts of the robot.</li>
 
-                        <li>The robot needs to stop 1 meter away from an opaque wall.</li>
+                        <li>Stop 1 meter away from an opaque wall.</li>
 
-                        <li>The robot needs to be able to tell how many game objects it is currently holding inside its hopper.</li>
+                        <li>Tell how many game objects it is currently holding inside its hopper.</li>
                     </ul>
                     In the REV Robotics Control System sensors are classified as basic, intermediate, or advanced. This division 
                     among sensors is based on programming complexity. Basic sensors can typically be coded using a if/else 
@@ -38,7 +39,7 @@ function HardwareSensorsPage() {
                     <Image src={require("./img/potentiometer.png")} fluid />
                 </Col>
                 <Col sm={8}>
-                    <h4> Basic Sensors </h4>
+                    <h4>2. Basic Sensors </h4>
                     In the REV Robotics Control System, both Analog and Digital sensors are considered basic sensors.<p/>
 
                     Digital sensors provide binary information: information that can take one of two possible values or states. 
@@ -68,7 +69,7 @@ function HardwareSensorsPage() {
                     <Image src={require("./img/REV-Motor_builtin_encoder.png")} fluid />
                 </Col>
                 <Col sm={8}>
-                    <h4> Intermediate sensors </h4>
+                    <h4>3. Intermediate sensors </h4>
                     Intermediate sensors give feedback through two-way communication with a robot controller. These types of 
                     sensors allow for more complex data to communicate to the robot, such as color values of an object. <p/>
                     <ul>
@@ -89,7 +90,7 @@ function HardwareSensorsPage() {
                     <Image src={require("./img/IMU.png")} fluid />
                 </Col>
                 <Col sm={8}>
-                    <h4> Advanced Sensors </h4>
+                    <h4>4. Advanced Sensors </h4>
                     Advanced sensors rely on complex coding and information from other sensors in order to work effectively. 
                     Both the IMU and vision sensors require higher level code in order to decipher information being received 
                     from the sensor. <p/>

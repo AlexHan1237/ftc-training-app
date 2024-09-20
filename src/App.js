@@ -20,6 +20,7 @@ Amplify.configure(awsExports);
 function App() {
   const [collapsed, setCollapsed] = useState(false);
   const [showSplashScreen, setShowSplashScreen] = useState(true);
+
   useEffect(() => {
     setTimeout(() => {
       setShowSplashScreen(false);
@@ -34,8 +35,7 @@ function App() {
   if (!showSplashScreen) {
     return (
       <div className="my-div">
-        <SiteNav  collapsed={collapsed} 
-                  handleCollapsedChange={handleCollapsedChange} />
+        <SiteNav collapsed={collapsed} handleCollapsedChange={handleCollapsedChange} />
         {/* <SiteNav2 /> */}
         {/* <div className={`app ${toggled ? 'toggled' : ''}`}> */}
         <div className={`app ${''}`}>
@@ -54,7 +54,7 @@ function App() {
     );
   }
 
-  return <LandingPage />;
+  return <LandingPage setShowSplashScreen={setShowSplashScreen} />;
 }
 
 export default App;

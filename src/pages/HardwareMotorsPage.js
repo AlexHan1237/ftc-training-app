@@ -3,12 +3,13 @@ import { Col, Row, Image, Container } from "react-bootstrap";
 function HardwareMotorsPage() {
     return (
         <Container>
+            <h2> Motors </h2>
             <Row className="px-4 my-5">
                 <Col xs={2} sm={2}>
                     <Image src={require("./img/motors.png")} fluid />
                 </Col>
                 <Col sm={8}>
-                    <h4> Motors </h4>
+                    <h4>1. What Are Motors? </h4>
                     Electric motors are devices that use electricity to move objects mechanically. It can be divided into
                     two types: DC (Direct Current) motors and AC (Alternating Current) motors. DC motors are commonly used
                     in robotic applications instead of AC motors because AC motors require alternating current to operate
@@ -22,7 +23,7 @@ function HardwareMotorsPage() {
                     <Image src={require("./img/dc_motor.png")} fluid />
                 </Col>
                 <Col sm={8}>
-                    <h4> How DC Motors Work? </h4>
+                    <h4>2. How DC Motors Work? </h4>
                     DC motors include two key components: a stator and an armature. The stator is the stationary part of
                     a motor, while the armature rotates. In a DC motor, the stator provides a rotating magnetic field that
                     drives the armature to rotate.<p />
@@ -47,7 +48,7 @@ function HardwareMotorsPage() {
                     <Image src={require("./img/REV_Core_Hex.png")} fluid />
                 </Col>
                 <Col sm={8}>
-                    <h4> DC Servo Motors </h4>
+                    <h4>3. DC Servo Motors </h4>
                     A servo motor is a type of motor that is used for precise control of angular or linear position, velocity
                     and acceleration. It typically consists of a DC motor, gears, a sensor for position feedback, and a control
                     circuit. <p />
@@ -65,7 +66,7 @@ function HardwareMotorsPage() {
                     <Image src={require("./img/yellow_jacket.jpg")} fluid />
                 </Col>
                 <Col sm={8}>
-                    <h4> FTC Eligible Motors </h4>
+                    <h4>4. FTC Eligible Motors </h4>
                     The only FTC legal motors are the following ones:<p />
                     <ul class="simple">
                         <li><p>TETRIX 12V DC Motor (<a class="reference external" href="https://www.pitsco.com/TETRIX-DC-Gear-Motor">regular</a>, <a class="reference external" href="https://www.pitsco.com/TETRIX-MAX-TorqueNADO-Motor-with-Encoder/">Torquenado</a>)</p></li>

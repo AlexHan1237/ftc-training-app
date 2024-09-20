@@ -3,7 +3,7 @@ import { Col, Row, Image, Container } from "react-bootstrap";
 function IntegrationOverviewPage() {
     return (
     <Container>
-        <h4> Hands-on Exceise Overview </h4>
+        <h2> Hands-on Excise Overview </h2>
         In the previous two chapters, we covered the fundamental hardware and software components used in FTC 
         robotics. In this chapter, we'll assemble a simple robot that's ready for FTC competition. We'll start by 
         putting together the robot chassis, attaching the motors, and fitting the wheels. Next, we'll connect a 

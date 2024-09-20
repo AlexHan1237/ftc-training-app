@@ -7,15 +7,12 @@ import {Toast, ToastContainer} from 'react-bootstrap';
 
 
 
-function LandingPage() {
+function LandingPage({setShowSplashScreen}) {
 
   const [showToast, setShowToast] = useState(true);
-  const toggleShowToast = () => setShowToast(!showToast);
+  const toggleShowToast = () => {setShowToast(!showToast); setShowSplashScreen(false);}
 
-
-
-  return (
-    
+  return (    
     <Grid templateColumns={{ base: "1fr", medium: "1fr" }}>
       <View height="100vh">
       
@@ -30,7 +27,7 @@ function LandingPage() {
             <small>11 mins ago</small>
           </Toast.Header>
           <Toast.Body><p>Welcome to FTC Training Hub!</p>
-          <p>Please login to start learning everything about FTC robotics!</p>
+          <p>Please close this dialogue to skip the introduction video.</p>
           </Toast.Body>
         </Toast>
         </ToastContainer>
