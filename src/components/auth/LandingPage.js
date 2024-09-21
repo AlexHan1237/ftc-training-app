@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Grid, View,  } from "@aws-amplify/ui-react";
+import { Grid, View, Button } from "@aws-amplify/ui-react";
 
 import ReactPlayer from 'react-player';
 
@@ -23,11 +23,12 @@ function LandingPage({setShowSplashScreen}) {
       <ToastContainer position="bottom-end" className="p-3" style={{ zIndex: 1 }}>
         <Toast show={showToast} onClose={toggleShowToast}>
           <Toast.Header>            
-            <strong className="me-auto">FTC TrainingHub</strong>
+            <strong className="me-auto">FTC Training Hub</strong>
             <small>11 mins ago</small>
           </Toast.Header>
           <Toast.Body><p>Welcome to FTC Training Hub!</p>
-          <p>Please close this dialogue to skip the introduction video.</p>
+          <p>Click the button to skip the introduction video.</p>
+          <Button onClick={toggleShowToast}>Skip Video</Button>
           </Toast.Body>
         </Toast>
         </ToastContainer>
