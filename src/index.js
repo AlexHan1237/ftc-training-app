@@ -24,6 +24,7 @@ root.render(
                         return (
                         <Route path='home' element={<Homepage />} />
                         <Route path='/' element={<Homepage />} />
+                        <Route path='Introduction' element={<Homepage />} />
 
                         {SiteMap.chapters.map((chapterObj) => {
                             return (

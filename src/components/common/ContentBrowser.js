@@ -15,7 +15,7 @@ const ContentBrowser = ({
     <div style={{ display: 'flex', height: '100%', minHeight: '400px' }}>
       <Sidebar collapsed={collapsed} >
         <Menu>
-          <MenuItem component={<Link to='/home' className="link" />} icon={<HailRoundedIcon />} >
+          <MenuItem component={<Link to='/Introduction' className="link" />} icon={<HailRoundedIcon />} >
             Introduction
           </MenuItem>
           {/* <SubMenu label="Introduction" icon={<HailRoundedIcon/>}></SubMenu> */}

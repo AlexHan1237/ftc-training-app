@@ -7,7 +7,7 @@ import awsExports from './aws-exports';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@aws-amplify/ui-react/styles.css'
-import './styles.scss';
+//import './styles.scss';
 
 import SiteNav from './components/common/SiteNav';
 import SiteBreadcrumbs from './components/common/SiteBreadcrumbs';

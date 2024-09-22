@@ -9,3 +9,163 @@ my-div {
   padding: 16px;
   width: 25%;
 }
+
+
+.ps-sidebar-root {
+  position: sticky !important;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  border: 0 !important;
+}
+.ps-menu-root {
+  color: #152e6e !important;
+}
+.ps-menu-button:hover {
+  background-color: #5078dc !important;
+  color: black !important;
+}
+.ps-submenu-content {
+  color: #0d6efd !important;
+  background-color: #fffafa !important;
+}
+
+/* This is for menu item */
+.pro-menu-item a.active {
+  color: var(--main-blue);  /* put any color you want */
+  font-weight: 500;
+}
+
+/* This is for submenu item */
+.nav-member .react-slidedown .pro-menu-item a.active {
+  color: #003642;  /* put any color you want */
+  font-weight: 500;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  color: #353535;
+  font-family: sans-serif;
+  overflow-y: auoto;
+}
+#root {
+  height: 100%;
+}
+.app {
+  height: 90%;
+  display: flex;
+  position: relative;
+}
+.app .btn-toggle {
+  cursor: pointer;
+  display: none;
+}
+.app .sidebar-btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app .sidebar-btn-wrapper .sidebar-btn {
+  padding: 1px 15px;
+  border-radius: 40px;
+  background: rgba(255, 255, 255, 0.05);
+  color: #adadad;
+  text-decoration: none;
+  margin: 0 auto;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.app .sidebar-btn-wrapper .sidebar-btn span {
+  margin-left: 5px;
+  font-size: 13px;
+}
+.app .sidebar-btn-wrapper .sidebar-btn:hover {
+  color: #d8d8d8;
+}
+.app .collapsed .sidebar-btn {
+  display: inline-block;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  line-height: 40px;
+  padding: 0;
+}
+.app main {
+  padding: 24px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auoto;
+}
+.app main header {
+  margin-bottom: 16px;
+  border-bottom: 1px solid #efefef;
+}
+.app main footer {
+  margin-top: auto;
+  color: #888;
+  text-align: center;
+}
+.app main footer a {
+  text-decoration: none;
+  color: #888;
+}
+.app main footer a:hover {
+  text-decoration: underline;
+}
+.app .block {
+  display: flex;
+  margin-bottom: 24px;
+  font-size: 14px;
+  color: #545454;
+}
+.app .block > span {
+  margin-left: 10px;
+}
+.app .btn-toggle {
+  display: flex;
+}
+.badge {
+  padding: 3px 6px;
+  font-size: 9px;
+  letter-spacing: 1px;
+  border-radius: 15px;
+}
+.badge.red {
+  color: #fff;
+  background: #d63030;
+}
+.badge.gray {
+  color: #fff;
+  background: #777;
+}
+.badge.yellow {
+  color: #000;
+  background: #ffd331;
+}
+.nav-link {
+  font-family: 'Roboto', sans-serif;
+  color: #152e6e !important;
+}
+input::placeholder {
+  color: #5078dc !important;
+}
+code {
+  background-color: #f4f4f4;
+  border-radius: 4px;
+  padding: 0.2em 0.4em;
+  font-family: monospace;
+  color: #333;
+}
+pre {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1em;
+  overflow-x: auto;
+}

@@ -1,5 +1,6 @@
-import { Col, Row, Image, Container } from "react-bootstrap";
-import '../styles.scss';
+import { Container } from "react-bootstrap";
+//import '../styles.scss';
+import '../App.css';
 
 function SoftwareJavaPage() {
     const codeString = `
