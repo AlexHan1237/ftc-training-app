@@ -17,7 +17,7 @@ function TradeoffsPlacementPage() {
             performance. Different lift designs can be tailored to specific game challenges, allowing teams to modify
             their robots to effectively handle the unique game piece manipulation requirements each season. <p />
 
-            <h4>1. Double Reverse Four Bar Lift</h4>
+            <h4>Double Reverse Four Bar Lift</h4>
             The double reverse four bar (also referred to as DR4B or RD4B) lift is one of the more complicated lift
             designs used in robotics competitions. The lift is comprised of two iterations of a four bar lift. One
             iteration is mounted in the same manner as for a standard four bar lift. The second iteration is mounted
@@ -28,7 +28,7 @@ function TradeoffsPlacementPage() {
 
             <Image src={require("./img/TO_double_4bar_lift.gif")} fluid width="40%" /> <p />
 
-            <h4>2. Scissor Lift</h4>
+            <h4>Scissor Lift</h4>
             The scissor lift is named because of its overlapping metal bars that open and close similarly to scissors.
             Scissors lifts are comprised of two sets of overlapping bars, one on each side, that are able to freely
             rotate in respect to one another. The lift can be as simple as two crossed bars on either side of the lift,
@@ -39,7 +39,7 @@ function TradeoffsPlacementPage() {
 
             <Image src={require("./img/TO_scissor_lift.gif")} fluid width="40%" /> <p />
 
-            <h4>3. Cascade Lift</h4>
+            <h4>Cascade Lift</h4>
             A cascade or elevator lift is very popular in FTC competition. This lift provides an immense amount of height,
             while taking not a lot of space. The following diagram shows how the mechanism works: <p />
 
@@ -53,7 +53,7 @@ function TradeoffsPlacementPage() {
             <iframe width="342" height="607" src="https://www.youtube.com/embed/UC3Z0wOfkWg" title="VEX Cascade Lift" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <p />
 
-            <h4>4. Telescopic Lift</h4>
+            <h4>Telescopic Lift</h4>
             A telescopic lift in robotics is a mechanism designed to extend and retract vertically, much like a telescoping
             pole or ladder. The lift consists of multiple nested sections or tubes that slide into and out of each other.
             When extended, each section slides outward from the one below it, creating a taller structure. To ensure smooth

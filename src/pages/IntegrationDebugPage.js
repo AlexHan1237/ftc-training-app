@@ -4,7 +4,7 @@ function IntegrationDebugPage() {
     return (
         <Container>
             <h2>Test and Debug</h2>
-            <h4>1. Running Your TeleOp Program</h4>
+            <h4>Step 1. Running Your TeleOp Program</h4>
             If you successfully built and installed your updated Android app with your new op mode, then you are ready to run 
             the op mode. Verify that the Driver Station is still connected to the Robot Controller. Since you designated that 
             your example op mode is a tele-operated op mode, it will be listed as a TeleOp op mode.<p/>
@@ -26,7 +26,7 @@ function IntegrationDebugPage() {
             Once you press the start button, the op mode will continue to iterate and send the “Status: Running” message to the 
             Driver Station. To stop the op mode, press the square-shaped stop button.<p/>
 
-            <h4>2. Testing and Debugging Your TeleOp </h4>
+            <h4>Step 2. Testing and Debugging Your TeleOp </h4>
             Due to differences in wiring, you'll need to adjust the provided TeleOp program to match your local setup. Take the 
             time to review and understand each line of code, and make any necessary modifications. This will be a valuable 
             learning experience. Happy debugging! <p/>

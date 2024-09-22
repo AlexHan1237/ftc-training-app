@@ -12,7 +12,7 @@ function TradeoffsHangerPage() {
             <iframe width="866" height="487" src="https://www.youtube.com/embed/zyUkIumb9Rw" title="FTC 2024-2025 Game Reveal : into the deep" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <p/>
 
-            <h4>1. Key Scoring Tasks</h4>
+            <h4>Key Scoring Tasks</h4>
             <ul>
                 <li>Parking in the Observation Zone - <stong>3 Points</stong></li>
                 <li>Placing Samples in baskets or the Net Zone - <stong>High Basket: 8, Low Basket: 4, Net Zone: 2</stong></li>
@@ -26,7 +26,7 @@ function TradeoffsHangerPage() {
             the robot should focus on climbing the high Rung, as there appears to be limited time to engage with the Low 
             Chamber or ascend to the Low Rung. <p/>
 
-            <h4>2. Brainstorm of a New Robot</h4>
+            <h4>Brainstorm of a New Robot</h4>
             The "Into the Deep" game offers an exciting platform for teams to compete through strategy, teamwork, and 
             advanced robotics. With a complex point system, strict rules, and various challenges, the 2024-2025 competition 
             demands great technical innovation and competitive spirit among participants. <p/>

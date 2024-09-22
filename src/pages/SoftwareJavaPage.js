@@ -16,7 +16,7 @@ public class HelloWorld {
             Learning Java can be a rewarding experience since it’s a versatile and widely-used programming language. Here’s a
             structured approach to help you get started: <p />
 
-            <h4>1. What is Java?</h4>
+            <h4>Step 1. What is Java?</h4>
             
                 <strong>Java</strong>  is an object-oriented, high-level programming language known for its portability
                     across platforms due to its "write once, run anywhere" capability. It’s used in web applications, mobile applications
@@ -32,7 +32,7 @@ public class HelloWorld {
                     <li>Methods: Learn how to define and call methods, pass parameters, and return values.</li>
                 </ul>
 
-            <h4>2. Set Up Your Development Environment</h4>
+            <h4>Step 2. Set Up Your Development Environment</h4>
             <ul>
                 <li>Install Java Development Kit (JDK): Download and install the latest version of the JDK from the
                     official Java website.</li>
@@ -45,7 +45,7 @@ public class HelloWorld {
                 </ul>
             </ul>
 
-            <h4>3. Write and Run Your First Program</h4>
+            <h4>Step 3. Write and Run Your First Program</h4>
             <ul>
                 <li>Hello World Program:</li>
                 <pre><code>
@@ -60,7 +60,7 @@ public class HelloWorld {
                 </ul>
             </ul>
 
-            <h4>4. Learn Object-Oriented Programming (OOP) Concepts</h4>
+            <h4>Step 4. Learn Object-Oriented Programming (OOP) Concepts</h4>
             <ul>
                 <li>Classes and Objects: Understand how to define classes and create objects. Learn about
                     constructors, methods, and fields.</li>
@@ -71,7 +71,7 @@ public class HelloWorld {
                 <li>Abstraction: Use abstract classes and interfaces to define abstract concepts and enforce certain methods.</li>
             </ul>
 
-            <h4>5. Coding and Build Projects</h4>
+            <h4>Step 5. Coding and Build Projects</h4>
             <ul>
                 <li>Practice Coding: Solve problems on platforms like LeetCode, HackerRank, or CodeSignal to
                     strengthen your coding skills.</li>
@@ -79,7 +79,7 @@ public class HelloWorld {
                     Gradually move to more complex projects, such as web applications or games.</li>
             </ul>
 
-            <h4>6. Online Tutorial</h4>
+            <h4>Step 6. Online Tutorial</h4>
             <iframe width="866" height="487" src="https://www.youtube.com/embed/eIrMbAQSU34" title="Java Tutorial for Beginners" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             
             <p />
