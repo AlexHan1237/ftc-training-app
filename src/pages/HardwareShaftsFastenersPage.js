@@ -8,7 +8,7 @@ function HardwareShaftsFastenersPage() {
                 <Col xs={2} sm={2}>
                 </Col>
                 <Col sm={8}>
-                    <h4>1. What Are Shafts? </h4>
+                    <h4> What Are Shafts? </h4>
                     In mechanical engineering, a shaft is a rotating machine element, usually circular or polygonal in cross
                     section, which is used to transmit power from one part to another, or from a machine which produces power
                     to a machine which absorbs power. In FTC robots, due to the limited choice of DC motors, Hex-profiled shaft
@@ -21,7 +21,7 @@ function HardwareShaftsFastenersPage() {
                     <Image src={require("./img/REV_Hex_Shafts.png")} fluid />
                 </Col>
                 <Col sm={8}>
-                    <h4>2. Hex Shaft and Accessories </h4>
+                    <h4> Hex Shaft and Accessories </h4>
                     <strong>Hex Shaft</strong>: The cross section of this shaft is hexegonal.<p />
                 </Col>
             </Row >

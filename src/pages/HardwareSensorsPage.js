@@ -9,7 +9,7 @@ function HardwareSensorsPage() {
                     <Image src={require("./img/REV-sensors.png")} fluid />
                 </Col>
                 <Col sm={8}>
-                    <h4>1. What Sensors Do? </h4>
+                    <h4> What Sensors Do? </h4>
                     Sensors provide information that allows you to program the robot to use this information to perform specific 
                     actions. This allows the robot to perform at its best and in a repeatable manner. Scenarios where a sensor 
                     is needed:<p />
@@ -39,7 +39,7 @@ function HardwareSensorsPage() {
                     <Image src={require("./img/potentiometer.png")} fluid />
                 </Col>
                 <Col sm={8}>
-                    <h4>2. Basic Sensors </h4>
+                    <h4> Basic Sensors </h4>
                     In the REV Robotics Control System, both Analog and Digital sensors are considered basic sensors.<p/>
 
                     Digital sensors provide binary information: information that can take one of two possible values or states. 
@@ -69,13 +69,13 @@ function HardwareSensorsPage() {
                     <Image src={require("./img/REV-Motor_builtin_encoder.png")} fluid />
                 </Col>
                 <Col sm={8}>
-                    <h4>3. Intermediate sensors </h4>
+                    <h4> Intermediate sensors </h4>
                     Intermediate sensors give feedback through two-way communication with a robot controller. These types of 
                     sensors allow for more complex data to communicate to the robot, such as color values of an object. <p/>
                     <ul>
-                        <li><strong>Color Sensor</strong>: A sensor capable of sensing colors and proximity of objects.</li>
+                        <li><strong>Color Sensor</strong>: A sensor capable of sensing colors and proximity of objects.</li><p/>
                         <li><strong>2m Distance Sensor</strong>: A sensor typically used to detect the distance from the sensor 
-                        to other opaque objects.</li>
+                        to other opaque objects.</li><p/>
                         <li><strong>Encoder</strong>: Encoder a type of digital sensor that converts rotary motion into digital 
                         signal. These type of sensors require “decoding” to get this information into a usable form. The 
                         Control Hub and Expansion Hub have built in decoding through the “Encoder Ports” under the 
@@ -90,7 +90,7 @@ function HardwareSensorsPage() {
                     <Image src={require("./img/IMU.png")} fluid />
                 </Col>
                 <Col sm={8}>
-                    <h4>4. Advanced Sensors </h4>
+                    <h4> Advanced Sensors </h4>
                     Advanced sensors rely on complex coding and information from other sensors in order to work effectively. 
                     Both the IMU and vision sensors require higher level code in order to decipher information being received 
                     from the sensor. <p/>

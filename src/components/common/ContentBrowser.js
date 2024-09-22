@@ -2,8 +2,7 @@ import { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { Sidebar, Menu, MenuItem, SubMenu } from "react-pro-sidebar";
 import SiteMapContext from '../../SiteMapContext';
-import StarHalfRoundedIcon from '@mui/icons-material/StarHalfRounded';
-import WorkspacePremiumRoundedIcon from '@mui/icons-material/WorkspacePremiumRounded';
+import HailRoundedIcon from '@mui/icons-material/HailRounded';
 
 const ContentBrowser = ({
   collapsed
@@ -16,8 +15,13 @@ const ContentBrowser = ({
     <div style={{ display: 'flex', height: '100%', minHeight: '400px' }}>
       <Sidebar collapsed={collapsed} >
         <Menu>
+          <MenuItem component={<Link to='/home' className="link" />} icon={<HailRoundedIcon />} >
+            Introduction
+          </MenuItem>
+          {/* <SubMenu label="Introduction" icon={<HailRoundedIcon/>}></SubMenu> */}
+
           {sitemap.chapters.map((chapterObj) => {
-            let DynamicIcon = require('@mui/icons-material/' + chapterObj.icon +'.js').default;
+            let DynamicIcon = require('@mui/icons-material/' + chapterObj.icon + '.js').default;
             return (
               <SubMenu label={chapterObj.chapterTitle} icon={<DynamicIcon />}>
 

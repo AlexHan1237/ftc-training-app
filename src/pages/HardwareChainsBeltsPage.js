@@ -9,7 +9,7 @@ function HardwareChainsBeltsPage() {
                     <Image src={require("./img/belt_and_chain.jpg")} fluid />
                 </Col>
                 <Col sm={8}>
-                    <h4>1. What Are Chains and Belts? </h4>
+                    <h4> What Are Chains and Belts? </h4>
                     Chains and belts are both mechanical drives that transmit power from one location to another. They can
                     be used in many applications, including garage door openers, bicycles, and engines. Almost all FTC robots
                     use one of them. In general, belts are easier to work with but is limited by the maximum stregth, while chains
@@ -21,7 +21,7 @@ function HardwareChainsBeltsPage() {
                     <Image src={require("./img/chains.png")} fluid />
                 </Col>
                 <Col sm={8}>
-                    <h4>2. Chains </h4>
+                    <h4> Chains </h4>
                     The links of a chain interfere with the teeth of a sprocket to create driving tension. Chains can be
                     stronger than belts, but their mass increases inertia in the drive train. They also have lower frictional
                     losses than belts, which often rely on friction to transfer motion. Chains are a good choice for conveyor
@@ -35,7 +35,7 @@ function HardwareChainsBeltsPage() {
                     <Image src={require("./img/belts.png")} fluid />
                 </Col>
                 <Col sm={8}>
-                    <h4>3. Belts </h4>
+                    <h4> Belts </h4>
                     Belts derive their driving force from friction between the belt and pulley surfaces. Belts can handle
                     high speeds smoothly. Because belts are friction drives, they will slip if there is an overload,
                     which can help prevent damage to the system.<p />

@@ -91,7 +91,7 @@ export const SiteMap = {
         },        
         {
             "chapterTitle": "Hands-on Excise",
-            "icon": "AssistWalkerRounded",
+            "icon": "DirectionsRunRounded",
             "sections": [
                 {
                     "SectionTitle" : "Overview", 
@@ -128,7 +128,7 @@ export const SiteMap = {
         },        
         {
             "chapterTitle": "System Design Ideas",
-            "icon": "BalanceRounded",
+            "icon": "TipsAndUpdatesRounded",
             "sections": [
                 {
                     "SectionTitle" : "Overview", 

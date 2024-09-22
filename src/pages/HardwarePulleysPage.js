@@ -9,7 +9,7 @@ function HardwarePulleysPage() {
                     <Image src={require("./img/pulley.jpg")} fluid />
                 </Col>
                 <Col sm={8}>
-                    <h4>1. What Is A Cable and Pulley System? </h4>
+                    <h4> What Is A Cable and Pulley System? </h4>
                     A cable and pulley system is a mechanical arrangement that uses cables, ropes, or belts and pulleys to transmit
                     force and movement. This system is commonly used to lift or move loads more efficiently by changing the direction
                     of the applied force and distributing the load. Pulleys are wheels with a groove around their circumference,
@@ -23,7 +23,7 @@ function HardwarePulleysPage() {
                     <Image src={require("./img/telescopic_rigging.png")} fluid />
                 </Col>
                 <Col sm={8}>
-                    <h4>2. Cascade Lift </h4>
+                    <h4> Cascade Lift </h4>
                     One significant application of the cable and pulley system in FTC robotics is in the Cascade linear motion 
                     mechanism. As shown in the diagram, the input consists of a motorized pulley (shown in violet) and two 
                     cables—red and blue. The red cable is wrapped around the green idle pulley at the base runway. One end of 

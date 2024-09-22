@@ -21,18 +21,22 @@ function App() {
   const [collapsed, setCollapsed] = useState(false);
   const [showSplashScreen, setShowSplashScreen] = useState(true);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setShowSplashScreen(false);
-    }, 105000);
-  }, []);
-
   const handleCollapsedChange = () => {
     setCollapsed(!collapsed);
   };
 
+  const handleShowSplashChange = () => {
+    sessionStorage.setItem('splashScreenDone', true);
+    setShowSplashScreen(false);
+  };
 
-  if (!showSplashScreen) {
+  useEffect(() => {
+   
+  }, [showSplashScreen]);
+
+  var splashScreenDone = Boolean(sessionStorage.getItem('splashScreenDone'));
+
+  if (splashScreenDone) {
     return (
       <div className="my-div">
         <SiteNav collapsed={collapsed} handleCollapsedChange={handleCollapsedChange} />
@@ -53,8 +57,9 @@ function App() {
       </div>
     );
   }
-
-  return <LandingPage setShowSplashScreen={setShowSplashScreen} />;
+  else {
+    return (<LandingPage handleShowSplashChange={handleShowSplashChange} />);
+  }
 }
 
 export default App;
