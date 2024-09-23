@@ -18,7 +18,6 @@ const ContentBrowser = ({
           <MenuItem component={<Link to='/Introduction' className="link" />} icon={<HailRoundedIcon />} >
             Introduction
           </MenuItem>
-          {/* <SubMenu label="Introduction" icon={<HailRoundedIcon/>}></SubMenu> */}
 
           {sitemap.chapters.map((chapterObj) => {
             let DynamicIcon = require('@mui/icons-material/' + chapterObj.icon + '.js').default;

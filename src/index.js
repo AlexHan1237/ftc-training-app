@@ -11,13 +11,13 @@ import SiteMapContext from './SiteMapContext.js';
 
 import Homepage from './components/home/HomePage';
 
-import { Authenticator } from "@aws-amplify/ui-react";
+//import { Authenticator } from "@aws-amplify/ui-react";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <SiteMapContext.Provider value={SiteMap}>
-        <Authenticator.Provider>
+        {/* <Authenticator.Provider> */}
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<App />}>
@@ -36,7 +36,7 @@ root.render(
                     </Route>
                 </Routes>
             </BrowserRouter>
-        </Authenticator.Provider>
+        {/* </Authenticator.Provider> */}
     </SiteMapContext.Provider>
 );
 

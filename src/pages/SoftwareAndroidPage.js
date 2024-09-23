@@ -1,4 +1,4 @@
-import { Col, Row, Image, Container } from "react-bootstrap";
+import { Image, Container } from "react-bootstrap";
 
 function SoftwareAndroidPage() {
     return (
