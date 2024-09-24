@@ -18,7 +18,7 @@ function IntegrationChassisPage() {
 
             <Row className="px-4 my-5">
                 <Col xs={2} sm={2}>
-                    <Image src={require("./img/CAD_Starter_Robot.PNG")} fluid />
+                    <Image src={require("./img/CAD_Starter_Robot.png")} fluid />
                 </Col>
                 <Col sm={8}>
                     <h4>Step 2. CAD Design </h4>

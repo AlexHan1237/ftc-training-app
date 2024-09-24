@@ -15,7 +15,7 @@ function SoftwareCADPage() {
             Simply go to the <a href="https://onshape.com">Onshape website (https://onshape.com)</a> and select your
             subscription level to sign up. <p />
 
-            <Image src={require("./img/onshape_signup.PNG")} fluid width="40%" /><p />
+            <Image src={require("./img/onshape_signup.png")} fluid width="40%" /><p />
 
             Students should click the "Create a Student Account" link and complete the required forms. Afterward,
             an account activation link will be sent to you via email.<p />
@@ -28,25 +28,25 @@ function SoftwareCADPage() {
                 <li>Assemblies, which is where you can “virtually test fit” your parts together and see how they’ll
                     move or work alongside each other. </li>
             </ul>
-            <Image src={require("./img/onshape_doc1.PNG")} fluid width="40%" /><p />
+            <Image src={require("./img/onshape_doc1.png")} fluid width="40%" /><p />
 
             <h4>Step 2. Create a Document</h4>
             OnShape CAD modeling starts with creating a new document. A "document" in OnShape is a database in the cloud where
             all relevent modeling data are stored. The modeling data is created by using the factories, such as Part Studio,
             Assembly etc. <p />
 
-            <Image src={require("./img/onshape_doc2.PNG")} fluid width="40%" /><p />
+            <Image src={require("./img/onshape_doc2.png")} fluid width="40%" /><p />
 
             To make a document, click on “Create” and select “Document”. Remember, if you have the free version, all the
             design features are available to you, but your work is public and accessible to other Onshape users. Selecting
             “Document” brings up a form that allows you to name your new work which should be meaningful to your design.<p />
 
-            <Image src={require("./img/onshape_doc_create.PNG")} fluid width="40%" /><p />
+            <Image src={require("./img/onshape_doc_create.png")} fluid width="40%" /><p />
 
             When your new document opens, it will have two tabs at the bottom, “Part Studio 1” and “Assembly 1”, with the
             former selected. This is good as it’s where you’ll want to start. <p />
 
-            <Image src={require("./img/onshape_doc_empty.PNG")} fluid width="40%" /><p />
+            <Image src={require("./img/onshape_doc_empty.png")} fluid width="40%" /><p />
 
             Let’s get acquainted with the Onshape user interface. In the top right corner, you'll find the View Cube (1),
             which lets you quickly switch between pre-defined views—useful for aligning your model as needed.<p />
@@ -74,19 +74,19 @@ function SoftwareCADPage() {
             You might notice that your document automatically created the “Assembly 1” tab. Click on it and you’ll
             switch to the assembly mode. The toolbar has changed significantly.<p />
 
-            <Image src={require("./img/onshape_assembly1.PNG")} fluid width="40%" /><p />
+            <Image src={require("./img/onshape_assembly1.png")} fluid width="40%" /><p />
 
             In “Assembly 1”, click the “Insert” tool to insert assembly components. A dialogue will appear with your part
             visible. Select your part and place it in the space. The dialogue will remain visible, and we can select the part
             again to insert another instance of it. Once placed, click the green tick to finish inserting the assembly components.<p />
 
-            <Image src={require("./img/onshape_insert_comps.PNG")} fluid width="40%" /><p />
+            <Image src={require("./img/onshape_insert_comps.png")} fluid width="40%" /><p />
 
             Now, find the “Planar Mate” tool. Select the top faces on the two instances of part. The parts are now snapped to
             each other, which isn’t right. Click on the green tick to fish the mate addition. Repeat adding planar mates for the side
             faces and the back face to the front face.  You should now have an assembly of what looks like two boxes stacked. <p />
 
-            <Image src={require("./img/onshape_mate.PNG")} fluid width="40%" /><p />
+            <Image src={require("./img/onshape_mate.png")} fluid width="40%" /><p />
 
             In case that you are stuck somewhere, please refer to the following video for help.<p />
 
@@ -100,8 +100,8 @@ function SoftwareCADPage() {
             the STL file into your slicer (Cura, Simplify3D, Prusa Slicer etc). Most 3D printers come with their own slicer 
             software. Your slicer software will most likely have tutorials that come with it or otherwise if you search 
             youtube you will find plenty of help with your particular machine.<p/>
-            <Image src={require("./img/onshape_export.PNG")} fluid width="40%" /><p />
-            <Image src={require("./img/onshape_export_STL.PNG")} fluid width="40%" /><p />
+            <Image src={require("./img/onshape_export.png")} fluid width="40%" /><p />
+            <Image src={require("./img/onshape_export_STL.png")} fluid width="40%" /><p />
 
             By following these steps and dedicating time to practice and exploration, you’ll build a strong foundation in CAD 
             and develop the skills needed to create complex and precise designs. Thank you for reading this far with me.<p/>
