@@ -3,7 +3,7 @@ import { Col, Row, Image, Container } from "react-bootstrap";
 function HomePage() {
     return (
         <Container>
-            <Row className="px-4 my-5">
+            <Row className="px-4 my-1">
                 <Col xs={2} sm={2}>
                     <Image src="img/FTC_logo.png" fluid />
                 </Col>

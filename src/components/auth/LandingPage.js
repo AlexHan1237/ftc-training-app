@@ -19,7 +19,7 @@ function LandingPage({ handleShowSplashChange }) {
   }, []);
 
   return (
-    <Container style={{ height: "100vh", width: '100%' }}>
+    <div style={{ height: "100vh", width: '100%' }}>
     {/* <Container style={{ display: 'flex', height: '100%', minHeight: '400px' }}> */}
     
         <ReactPlayer playing={true} loop={false} muted={true} url="https://www.youtube.com/embed/0QKHZENgOhA" width="100%"
@@ -31,14 +31,14 @@ function LandingPage({ handleShowSplashChange }) {
             <strong className="me-auto">Welcome to FTC Training Hub!</strong>
             <small>1 mins ago</small>
           </Toast.Header>
-          <Toast.Body><p>This site presents a collection of FTC robotics related materials for the beginners. I hope it helps 
-            make the learning process a bit easier! 🙂</p>
+          <Toast.Body><p>This site presents a collection of FTC robotics resources for beginners. I hope it makes your 
+            learning journey a little easier! 🙂</p>
             <p>Alexander Han</p>
             <Button onClick={toggleShowToast}>Skip Intro Video</Button>
           </Toast.Body>
         </Toast>
       </ToastContainer>
-    </Container>
+    </div>
   );
 }
 
